@@ -1,0 +1,407 @@
+Protein ID	Protein Name	Protein Length	Available structures (PDB id)	Structures in KnotProt (PDB id)	Topology from KnotPull (knot_type: number of models)	Topology from fingerprint matrix
+A0A1B0GV85	Reelin domain-containing protein 1	526			3_1:1	
+A0A1W2PPK0	Homeobox domain-containing protein	400			3_1:1	
+A0AV96	RNA-binding protein 47	593	2dis		3_1:1	
+A1KZ92	Peroxidasin-like protein	1463			3_1:1	
+A1YPR0	Zinc finger and BTB domain-containing protein 7C	619			6_2:1	
+A2VEC9	SCO-spondin	5150			3_1#10_0:1,01:19	
+A4D2B8	Putative postmeiotic segregation increased 2-like protein 1	440			5_1:1	
+A6NCC3	Golgin subfamily A member 8O	632			3_1:1	
+A6ND36	Protein FAM83G	823			3_1:1	
+A6NEW6	Putative protein FAM90A16P/FAM90A17P	464			3_1:1	
+A6NGB9	WAS/WASL-interacting protein family member 3	483			3_1:1	
+A6NL46	Putative UPF0607 protein ENSP00000332738	340			3_1:1	
+A6NMD2	Golgin subfamily A member 8J	632			3_1:1	
+A6NNH2	Protein FAM90A27P	459			6_3:1	
+A7MBM2	Protein dispatched homolog 2	1401			3_1:1	
+A8K7I4	Calcium-activated chloride channel regulator 1	914	6pyo,6pyx		3_1:1	
+A8MUU9	Putative uncharacterized protein ENSP00000383309	505			3_1:1	
+A8MVM7	Putative uncharacterized protein ENSP00000382790	634			3_1:1	
+A8MX80	Putative UPF0607 protein ENSP00000383144	341			3_1:1	
+A8MYU2	Potassium channel subfamily U member 1	1149	4hpf		3_1:1	
+A8MYZ6	Forkhead box protein O6	492			3_1:1	
+B1AK53	Espin	854			3_1:1	
+C9JSJ3	Meiosis initiator protein	638			3_1:1	
+H3BSY2	Golgin subfamily A member 8M	632			3_1:1	
+H3BV12	Golgin subfamily A member 8Q	632			3_1:1	
+I3L273	Golgi-associated olfactory signaling regulator	518			3_1:1	
+I6L899	Golgin subfamily A member 8R	631			3_1:1	
+O00534	von Willebrand factor A domain-containing protein 5A	786			6_3:1	
+O14526	F-BAR domain only protein 1	889			3_1:1	
+O14867	Transcription regulator protein BACH1	736	2ihc		6_1:1	
+O14939	Phospholipase D2	933	6ohm,6oho,6ohp,6ohq,6ohs		3_1:1	
+O15062	Zinc finger and BTB domain-containing protein 5	677			3_1:1	
+O15119	T-box transcription factor TBX3	743	1h6f		3_1:1	
+O15209	Zinc finger and BTB domain-containing protein 22	634			3_1:1	
+O43150	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 2	1006			3_1:1	
+O43298	Zinc finger and BTB domain-containing protein 43	467	2csh		3_1:1	
+O43474	Krueppel-like factor 4	513			3_1:1	
+O43559	Fibroblast growth factor receptor substrate 3	492	2kup,2kuq,2ys5,2yt2		5_2:1	
+O43570	Carbonic anhydrase 12	354	1jcz,1jd0,4ht2,4kp5,4kp8,4q0l,4qj0,4qjo,4qjw,4ww8,5ll5,5ll9,5llo,5llp,5msa,5msb,6g5l,6g7a,6qn0,6qng,6qnl,6r6y,6r71,6rps,6t5p,6t5q	S31_pub:6qn0,4qjo,1jd0,4qjw,4q0l,5ll5,6g5l,6g7a,6r71,4qj0 K31_pub:5llo,5llp,5msb,5msa,4kp5,4kp8,5ll9,4ht2,6qng,6qnl,6r6y S31_unpub:6t5p,6rps  K31_unpub:6t5q	3_1:1	
+O43719	HIV Tat-specific factor 1	755	2dit,6n3d,6n3e,6n3f,6nsx,6y50,6y53,6y5q	S31_unpub:6y53,6y5q  K41_unpub:6y5q K31_unpub:6y50,6y5q	3_1:1	
+O43847	Nardilysin	1151			3_1:1	
+O43900	Prickle planar cell polarity protein 3	615			3_1:1	
+O60244	Mediator of RNA polymerase II transcription subunit 14	1454	7emf,7ena,7enc,7enj,7lbm,7nvr		4_1:1	
+O60299	Leucine zipper putative tumor suppressor 3	673			3_1:1	
+O60333	Kinesin-like protein KIF1B	1816	2eh0		3_1:1	
+O60347	TBC1 domain family member 12	775			3_1:1	
+O60494	Cubilin	3623	3kq4,6gje		3_1#5_2:1,01:12	
+O60548	Forkhead box protein D2	495			4_1:1	
+O60610	Protein diaphanous homolog 1	1272			3_1:1	
+O60840	Voltage-dependent L-type calcium channel subunit alpha-1F	1977			3_1:1	
+O75175	CCR4-NOT transcription complex subunit 3	753	4c0d,4c0g,5fu6,5fu7		4_1:1	
+O75493	Carbonic anhydrase-related protein 11	328			3_1:1	
+O75525	KH domain-containing, RNA-binding, signal transduction-associated protein 3	346	5el3,5elr,5els,5elt,5emo		3_1:1	
+O75553	Disabled homolog 1	588			3_1:1	
+O75592	E3 ubiquitin-protein ligase MYCBP2	4678	5o6c,6t7f		3_1:1,not_calc:2,01:15	
+O75604	Ubiquitin carboxyl-terminal hydrolase 2	605	2hd5,2ibi,3nhe,3v6c,3v6e,5xu8,5xve,6dgf		3_1:1	
+O75626	PR domain zinc finger protein 1	825	3dal		3_1:1	
+O75914	Serine/threonine-protein kinase PAK 3	559	6fd3		3_1:1	
+O94782	Ubiquitin carboxyl-terminal hydrolase 1	785	6do5,7ay0,7ay1,7ay2		3_1:1	
+O94915	Protein furry homolog-like	3013			3_1:1,01:9	
+O95170	CMT1A duplicated region transcript 1 protein	752			3_1:1	
+O95208	Epsin-2	641			3_1:1	
+O95831	Apoptosis-inducing factor 1, mitochondrial	613	1m6i,4bur,4bv6,4fdc,4lii,5fmh,5fs6,5fs7,5fs8,5fs9,5kvh,5kvi	S31_pub:4lii,4bv6  K31_unpub:5kvi,5fmh  S31_unpub:5fs8	3_1:1	
+O95905	Protein ecdysoneless homolog	644			3_1:1	
+P00915	Carbonic anhydrase 1	261	1azm,1bzm,1crm,1czm,1hcb,1hug,1huh,1j9w,1jv0,2cab,2foy,2fw4,2it4,2nmx,2nn1,2nn7,3lxe,3w6h,3w6i,4wr7,4wup,4wuq,5e2m,5gmm,6evr,6ex1,6f3b,6faf,6fag,6g3v,6hwz,6i0j,6i0l,6swm,6xze,6xzo,6xzs,6xzx,6xzy,6y00	S31_pub:1czm,1jv0,6fag,6ex1,6faf,6f3b,2nmx,1azm,5e2m,1j9w,3w6h,2fw4,1hcb,3w6i,1hug,1huh,2cab,1bzm,2it4,3lxe,2nn1,2nn7,1crm,5gmm,6g3v,6evr,6hwz,6i0l K31_pub:6i0j  S31_unpub:6xzo,6xzx,6xzy,6xzs,6y00,6swm  K31_unpub:6xze	3_1:1	
+P00918	Carbonic anhydrase 2	260	> 900 structures		3_1:1	
+P02671	Fibrinogen alpha chain	866	3E1I, 2OYI, 2OYH, 2Q9I, 5CFA, 2HLO, 2HOD, 2HPC, 2H43, 2FFD, 2A45, 1FZD, 1FZC, 1FZB, 1FZA, 1FZG, 1FZF, 1FZE, 1RE4, 1RE3, 1RF1, 1RF0, 3AT0, 1FPH, 1BBR		3_1:1	
+P04114	Apolipoprotein B-100	4563			5_1:1,01:16	
+P04198	N-myc proto-oncogene protein	464	5g1x		3_1:1	
+P05412	Transcription factor AP-1	331	1a02,1fos,1jnm,1jun,1s9k,1t2k,5fv8,5t01,6y3v		3_1:1	
+P06756	Integrin alpha-V	1048	4UM8, 4UM9, 1U8C, 6NAJ, 6DJP, 6MK0, 6MSU, 6MSL, 1JV2, 1L5G, 1M1X, 4MMX, 4MMY, 4MMZ, 4O02, 4G1M, 4G1E, 6AVU, 6AVR, 6AVQ, 3IJE, 6UJC, 6UJB, 6UJA, 6OM1, 6OM2, 5NEU, 5NET, 5NEM, 5NER, 5FFO, 5FFG		3_1:1	
+P07196	Neurofilament light polypeptide	543			3_1:1	
+P07451	Carbonic anhydrase 3	260	1z93,1z97,2hfw,3uyn,3uyq	S31_pub:2hfw,3uyq  K31_pub:1z97,3uyn,1z93	3_1:1	
+P08514	Integrin alpha-IIb	1039	6V4P, 2MTP, 1TYE, 2N9Y, 2K1A, 2K9J, 2KNC, 1M8O, 5HDB, 3ZDX, 3ZDY, 3ZDZ, 3ZE0, 3ZE1, 3ZE2, 3T3M, 3T3P, 4CAK, 4Z7N, 4Z7O, 4Z7Q, 3FCS, 3FCU, 3NIF, 3NIG, 3NID, 2VC2, 2VDP, 2VDQ, 2VDR, 2VDK, 2VDL, 2VDM, 2VDN, 2VDO, 1S4W		3_1:1	
+P08603	Complement factor H	1231	3RJ3, 5O35, 3KXV, 3KZJ, 5WTB, 2RLQ, 2RLP, 2QFH, 2QFG, 2KMS, 4B2R, 4B2S, 4AYD, 4AYE, 4AYI, 4AYM, 4K12, 2IC4, 2JGX, 2JGW, 2G7I, 2BZM, 4J38, 1HAQ, 1HCC, 1HFI, 1HFH, 5NBQ, 5O32, 4ONT, 3SW0, 3OXU, 6ATG, 4ZH1, 3GAU, 3GAV, 3GAW, 2XQW, 2W80, 2W81, 2WII, 2UWN, 2V8E, 3R62		3_1:1	
+P08648	Integrin alpha-5	1049	4WK0, 4WK2, 4WK4, 4WJK, 7NWL, 7NXD, 3VI3, 3VI4		3_1:1	
+P09603	Macrophage colony-stimulating factor 1	554	3UEZ, 3UF2, 4FA8, 1HMC, 4ADF, 5LXF, 4WRL, 4WRM		5_1:1	
+P09936	Ubiquitin carboxyl-terminal hydrolase isozyme L1	223	2etl,2len,3ifw,3irt,3kvf,3kw5,4dm9,4jkj	K31_pub:2etl,3ifw,3irt,3kvf,3kw5,4dm9,4jkj,2len,4jkj K52_pub:2etl,3ifw,3irt,3kvf,3kw5,4dm9,4jkj,2len,4jkj	5_2:1	
+P0C0L4	Complement C4-A	1744	4FXG, 4FXK, 1HZF, 6YSQ, 4XAM, 5JPN, 5JPM, 5JTW		3_1:1	
+P0C0L5	Complement C4-B	1744	4xam,6ysq	S31_unpub:6ysq	3_1:1	
+P0C2W7	Cancer/testis antigen 47B	299			3_1:1	
+P0C7X4	Putative ferritin heavy polypeptide-like 19	201			3_1:1	
+P0C860	Putative male-specific lethal-3 protein-like 2	447			4_1:1	
+P0CG20	Proline-rich protein 35	571			3_1:1	
+P0CG43	Putative protein FAM157C	387			3_1:1	
+P0CJ92	Golgin subfamily A member 8H	632			3_1:1	
+P10075	Zinc finger protein GLI4	376			3_1:1	
+P14651	Homeobox protein Hox-B3	431			3_1:1	
+P15374	Ubiquitin carboxyl-terminal hydrolase isozyme L3	230	1uch,1xd3,6isu,6qml	K31_pub:1xd3,1uch  K52_pub:1xd3,1uch S31_unpub:6isu,6qml	5_2:1	
+P15863	Paired box protein Pax-1	534			4_1:1	
+P16471	Prolactin receptor	622	1bp3,2lfg,2n7i,3d48,3mzg,3n06,3n0p,3ncb,3ncc,3nce,3ncf,4i18		3_1:1	
+P17010	Zinc finger X-chromosomal protein	805			3_1:1	
+P17022	Zinc finger protein 18	549			3_1:1	
+P17544	Cyclic AMP-dependent transcription factor ATF-7	483			3_1:1	
+P18146	Early growth response protein 1	543	4r2a,4r2c,4r2d,4x9j,5n14		4_1:1	
+P20264	POU domain, class 3, transcription factor 3	500			3_1:1	
+P20265	POU domain, class 3, transcription factor 2	443			4_1:1	
+P20810	Calpastatin	708			5_2:1	
+P21817	Ryanodine receptor 1	5038	6uhi,6uhs		3_1:1,01:19	
+P22105	Tenascin-X	4244	2cuh,2cui,2cum		3_1:1,4_1:1,not_calc:1,01:13	
+P22681	E3 ubiquitin-protein ligase CBL	906	5J3X, 5O76, 6O02, 6O03, 6XAR, 2OO9, 2K4D, 2JUJ, 4A4B, 4A4C, 4A49, 2CBL, 4GPL, 1FBV, 5HKW, 5HL0, 5HKY, 5HKX, 5HKZ, 3OB1, 3OB2, 3PLF, 2Y1M, 2Y1N, 3BUW, 3BUX, 3BUN, 3BUO, 3BUM, 1YVH, 1B47		3_1:1	
+P22748	Carbonic anhydrase 4	312	1znc,3f7b,3f7u,3fw3,5ipz,5jn8,5jn9,5jna,5jnc,5ku6	K31_pub:1znc,3f7b,3fw3,5ipz,5ku6,5jn8,5jna,5jnc  S31_pub:3f7u	3_1:1	
+P23229	Integrin alpha-6	1130	7ceb,7cec		3_1:1	
+P23280	Carbonic anhydrase 6	308	3fe4	S31_pub:3fe4	3_1:1	
+P23771	Trans-acting T-cell-specific transcription factor GATA-3	443	4hc7,4hc9,4hca		3_1:1	
+P26006	Integrin alpha-3	1051			3_1:1	
+P27540	Aryl hydrocarbon receptor nuclear translocator	789	2K7S, 2HV1, 6X2H, 6X28, 6X21, 6X3D, 6X37, 2B02, 2A24, 1X0O, 6D09, 6D0C, 6D0B, 6CZW, 5V0L, 5UFP, 5TBM, 4LPZ, 4PKY, 4GHI, 4GS9, 4H6J, 4EQ1, 4XT2, 3F1N, 3F1O, 3F1P, 5NJ8, 3H7W, 3H82		3_1:1	
+P29966	Myristoylated alanine-rich C-kinase substrate	332	1iwq		3_1:1	
+P31153	S-adenosylmethionine synthase isoform type-2	395	2P02, 6WKB, 7BHW, 7BHX, 7BHU, 7BHV, 7BHS, 7BHT, 7BHR, 5UGH, 7KCE, 7KCF, 7KCC, 7KDB, 7KDA, 7L1A, 4NDN, 4KTV, 4KTT, 6FAJ, 6FBO, 6FBN, 6FBP, 6FCD, 6FCB, 6G6R, 6FWB, 6P9V, 5A19, 5A1G, 5A1I		3_1:1	
+P31271	Homeobox protein Hox-A13	388	2l7z		3_1:1	
+P32418	Sodium/calcium exchanger 1	973			3_1:1	
+P32926	Desmoglein-3	999	5eqx		3_1:1	
+P35218	Carbonic anhydrase 5A, mitochondrial	305			3_1:1	
+P35219	Carbonic anhydrase-related protein	290	2w2j	K31_pub:2w2j	3_1:1	
+P35527	Keratin, type I cytoskeletal 9	623			3_1:1	
+P35555	Fibrillin-1	2871	1apj,1emn,1emo,1lmj,1uzj,1uzk,1uzp,1uzq,2m74,2w86,5ms9		3_1:1,not_calc:4,01:4	
+P35556	Fibrillin-2	2912			3_1:2,not_calc:3,01:4	
+P35711	Transcription factor SOX-5	763			3_1:1	
+P35712	Transcription factor SOX-6	828			3_1:1	
+P37198	Nuclear pore glycoprotein p62	522	5ijn,5ijo		3_1:1	
+P41212	Transcription factor ETV6	452	1ji7,1lky,1lky,2dao,2qar,2qar,2qb0,2qb1,5l0p,7ju2,7n1o,7n2b		3_1:1	
+P42858	Huntingtin	3142	4RAV, 2LD0, 2LD2, 6N8C, 4FEC, 4FED, 4FEB, 4FE8, 6EZ8, 3IO4, 3IO6, 3IOR, 3IOT, 3IOU, 3IOV, 3IOW, 3LRH, 7DXJ, 7DXK, 6YEJ, 6X9O, 6RMH		3_1:1,01:9	
+P43166	Carbonic anhydrase 7	264	3MDZ, 3ML5, 6H36, 6H38, 6H37, 7NC4, 6ZR9, 6SDT, 6G4T	K31_unpub:6zr9  K31_pub:3ml5,6h36 S31_pub:6g4t,3mdz,6h37,6h38,6sdt	3_1:1	
+P43354	Nuclear receptor subfamily 4 group A member 2	598	1ovl,1ovl,5y41,5yd6,6dda,6dda,6l6l,6l6q		3_1:1	
+P46939	Utrophin	3433	1bhd,1qag,6m5g		3_1:1,not_calc:3,01:8	
+P48751	Anion exchange protein 3	1232			3_1:1	
+P49023	Paxillin	591	1ow6,1ow7,1ow8,2k2r,2o9v,2vzd,2vzg,2vzi,3gm1,3rqe,3rqf,3rqg,3u3f,4edn,4xgz,4xh2,5uwh,6iui,6pw8,6u4m,6u4n		4_1:1	
+P49711	Transcriptional repressor CTCF	727	1x6h,2ct1,5k5h,5k5i,5k5j,5k5l,5kkq,5t00,5t0u,5und,5yef,5yeg,5yeg,5yeh,5yel,6qnx		3_1:1	
+P50851	Lipopolysaccharide-responsive and beige-like anchor protein	2863	1t77		3_1:1,not_calc:4,01:4	
+P51788	Chloride channel protein 2	898			5_2:1	
+P52732	Kinesin-like protein KIF11	1056	> 60 structures		3_1:1	
+P53708	Integrin alpha-8	1063			3_1:1	
+P57059	Serine/threonine-protein kinase SIK1	783			3_1:1	
+P57103	Sodium/calcium exchanger 3	927			3_1:1	
+P57682	Krueppel-like factor 3	345			3_1:1	
+P58107	Epiplakin	5088			3_1:1,01:19	
+P59510	A disintegrin and metalloproteinase with thrombospondin motifs 20	1910			3_1:1	
+P80723	Brain acid soluble protein 1	227			3_1:1	
+P81274	G-protein-signaling modulator 2	684	6HC2, 3SF4, 5A6C, 4WND, 4WNE, 4WNF, 4WNG		5_2:1	
+P98088	Mucin-5AC	5654	5ajn,5ajo,5ajp		3_1:1,not_calc:17,5_1:1,01:4	
+P98164	Low-density lipoprotein receptor-related protein 2	4655	2m0p		3_1:1,01:17	
+P98177	Forkhead box protein O4	505	1e17,3l2c		3_1:1	
+Q00266	S-adenosylmethionine synthase isoform type-1	395	2obv,6sw5,6sw6	K31_pub:2obv K31_unpub:6sw6,6sw5	3_1:1	
+Q01543	Friend leukemia integration 1 transcription factor	452	1fli,1x66,2ytu,5e8g,5e8i,5jvt,6vg2,6vg8,6vgd		3_1:1	
+Q02078	Myocyte-specific enhancer factor 2A	507	1c7u,1egw,1lew,3kov,3mu6,3p57,6byy,6bz1,6wc2		3_1#3_1:1	
+Q02156	Protein kinase C epsilon type	737	2wh0,5lih		3_1:1	
+Q02447	Transcription factor Sp3	781			3_1:1	
+Q02817	Mucin-2	5179	6rbf,6tm2,6tm2,6tm2,6tm6,7a5o		3_1:2,not_calc:11,01:7	
+Q03692	Collagen alpha-1(X) chain	680	1gr3		3_1:1	
+Q05215	Early growth response protein 4	589			3_1:1	
+Q05DH4	FHF complex subunit HOOK interacting protein 1A	1040			3_1:1	
+Q07954	Prolow-density lipoprotein receptor-related protein 1	4544	1cr8,1d2l,1j8e,2fyj,2fyl,2knx,2kny		3_1:2,not_calc:1,01:14	
+Q0P670	Uncharacterized protein SPEM2	501			3_1:1	
+Q0VDD8	Dynein axonemal heavy chain 14	3507			3_1:1,01:11	
+Q12791	Calcium-activated potassium channel subunit alpha-1	1236	6ND0, 6V22, 6V3G, 6V35, 6V38, 6V5A, 3MT5, 3NAF	K31_pub:3mt5  S31_unpub:6nd0  K31_unpub:6v35,6v3g,6v22,6v5a	3_1:1	
+Q12951	Forkhead box protein I1	378			3_1:1	
+Q13075	Baculoviral IAP repeat-containing protein 1	1403	2vm5		3_1:1	
+Q13153	Serine/threonine-protein kinase PAK 1	545	4EQC, 4P90, 5IME, 2QME, 1F3M, 2HY8, 4O0R, 4O0T, 3FXZ, 3FY0, 4DAW, 3Q52, 3Q53, 3Q4Z, 5KBQ, 5KBR, 4ZJI, 4ZJJ, 4ZLO, 4ZY4, 4ZY6, 4ZY5, 5DFP, 5DEW, 5DEY, 6B16, 1YHW, 1YHV, 1ZSG		3_1:1	
+Q13177	Serine/threonine-protein kinase PAK 2	524	3pcs		3_1:1	
+Q13202	Dual specificity protein phosphatase 8	625	4jmk		3_1:1	
+Q13263	Transcription intermediary factor 1-beta	835	1fp0,2ro1,2yvr,6h3a,6i9h,6qaj,6qu1		3_1:1	
+Q13395	Probable methyltransferase TARBP1	1621	2ha8	K31_pub:2ha8	3_1:1	
+Q13480	GRB2-associated-binding protein 1	694	4qsy		3_1:1	
+Q13627	Dual specificity tyrosine-phosphorylation-regulated kinase 1A	763	> 70 structures		3_1:1	
+Q13635	Protein patched homolog 1	1447	6OEU, 6OEV, 6RTW, 6RTY, 6RTX, 6RVC, 6RVD, 6RMG, 6DMY, 6DMO, 6DMB, 6E1H, 6N7H, 6N7G, 6N7K		3_1:1	
+Q13683	Integrin alpha-7	1181			3_1:1	
+Q13972	Ras-specific guanine nucleotide-releasing factor 1	1273			3_1:1	
+Q14118	Dystroglycan	895	1eg4,2mk7,5ggp,5llk,6jjy		3_1:1	
+Q14149	MORC family CW-type zinc finger protein 3	939	4qq4,5svi,5svx,5svy,6o1e,6o5w		4_1:1	
+Q14159	DNA repair-scaffolding protein	915			3_1:1	
+Q14190	Single-minded homolog 2	667			3_1:1	
+Q14494	Endoplasmic reticulum membrane sensor NFE2L1	772			3_1:1	
+Q14525	Keratin, type I cuticular Ha3-II	404			3_1:1	
+Q14693	Phosphatidate phosphatase LPIN1	890			5_2:1	
+Q14721	Potassium voltage-gated channel subfamily B member 1	858			3_1:1	
+Q14896	Myosin-binding protein C, cardiac-type	1274	1gxe,1pd6,2avg,2k1m,2mq0,2mq3,2v6h,3cx2,5k6p,6cxi,6cxi,6cxj,6cxj,6g2t,7lrg		3_1:1	
+Q14957	Glutamate receptor ionotropic, NMDA 2C	1233			3_1:1	
+Q14CN2	Calcium-activated chloride channel regulator 4	919			3_1:1	
+Q15583	Homeobox protein TGIF1	401	2lk2,6fqp,6fqq		7_6:1	
+Q16584	Mitogen-activated protein kinase kinase kinase 11	847	5k26,5k28,6aqb,6cq7		3_1:1	
+Q16659	Mitogen-activated protein kinase 6	721	6yky,6ylc,6yll,7aqb		3_1:1	
+Q16676	Forkhead box protein D1	465			3_1:1	
+Q16790	Carbonic anhydrase 9	459	6G9U, 6Y74, 6TL6, 6TL5, 5DVX, 6FE0, 6FE2, 6FE1, 6G98, 6QN2, 6QN6, 6QN5, 6QUT, 6RQN, 6RQQ, 6RQU, 6RQW, 3IAI, 5FL4, 5FL6, 5FL5		3_1:1	
+Q17R89	Rho GTPase-activating protein 44	818			3_1:1	
+Q2LD37	Transmembrane protein KIAA1109	5005			5_2:1,not_calc:13,01:6	
+Q2M2Z5	Centrosomal protein kizuna	673			3_1:1	
+Q2QGD7	Zinc finger protein ZXDC	858			3_1:1	
+Q2UY09	Collagen alpha-1(XXVIII) chain	1125			3_1:1	
+Q2WGN9	GRB2-associated-binding protein 4	574			3_1:1	
+Q32P44	Echinoderm microtubule-associated protein-like 3	896			3_1:1	
+Q3YEC7	Rab-like protein 6	729			3_1:1	
+Q4G0P3	Hydrocephalus-inducing protein homolog	5121	2e6j,2ys4		3_1:1,not_calc:4,01:15	
+Q4KMQ1	Taperin	711	6y9q		4_1:1	
+Q4LDE5	Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1	3571			3_1:2,not_calc:2,01:8	
+Q569H4	Protein Largen	304			3_1:1	
+Q58WW2	DDB1- and CUL4-associated factor 6	860	3i7o		5_2:1	
+Q5CZC0	Fibrous sheath-interacting protein 2	6907			3_1:1,not_calc:10,01:18	
+Q5JPE7	Nodal modulator 2	1267			3_1:1	
+Q5JVS0	Intracellular hyaluronan-binding protein 4	413			3_1:1	
+Q5SZK8	FRAS1-related extracellular matrix protein 2	3169			3_1#4_1:1,01:9	
+Q5T011	KICSTOR complex protein SZT2	3432			3_1:1,01:11	
+Q5T0B9	Zinc finger protein 362	420			3_1:1	
+Q5T280	Putative methyltransferase C9orf114	376	4rg1	K31_pub:4rg1	3_1:1	
+Q5T3J3	Ligand-dependent nuclear receptor-interacting factor 1	769			3_1:1	
+Q5T4S7	E3 ubiquitin-protein ligase UBR4	5183			3_1:1,4_1:1,01:18	
+Q5VST9	Obscurin	7968	1v1c,2cr6,2dku,2dm7,2e7b,2edf,2edh,2edl,2edq,2edr,2edt,2edw,2eny,2eo1,2gqh,2mwc,2n56,2yz8,4c4k,4rsv,4uow,5tzm,6mg9		3_1:2,not_calc:5,01:27	
+Q5VWT5	FYN-binding protein 2	728			3_1:1	
+Q5VYJ5	MAM and LDL-receptor class A domain-containing protein 1	2156			4_1:1	
+Q5W0V3	FHF complex subunit HOOK interacting protein 2A	765			3_1:1	
+Q5XX13	F-box/WD repeat-containing protein 10	1052			3_1:1	
+Q658L1	Stabilizer of axonemal microtubules 2	398			3_1:1	
+Q685J3	Mucin-17	4493			3_1:1,01:16	
+Q68CJ9	Cyclic AMP-responsive element-binding protein 3-like protein 3	461			3_1:1	
+Q68EM7	Rho GTPase-activating protein 17	881			3_1:1	
+Q6IN84	rRNA methyltransferase 1, mitochondrial	353			3_1:1	
+Q6J4K2	Mitochondrial sodium/calcium exchanger protein	584			3_1:1	
+Q6NSI4	RPA-related protein RADX	855			4_1:1	
+Q6P1W5	Uncharacterized protein C1orf94	598			3_1:1	
+Q6P3S6	F-box only protein 42	717			3_1:1	
+Q6PD62	RNA polymerase-associated protein CTR9 homolog	1173	5zyq,6gmh,6ted	K31_unpub:6ted	3_1:1	
+Q6PF06	tRNA methyltransferase 10 homolog B	316			3_1:1	
+Q6PGQ7	Protein aurora borealis	559			3_1:1	
+Q6PJT7	Zinc finger CCCH domain-containing protein 14	736			4_1:1	
+Q6SJ93	Serine protease FAM111B	734			3_1:1	
+Q6U841	Sodium-driven chloride bicarbonate exchanger	1118			3_1:1	
+Q6UXX5	Inter-alpha-trypsin inhibitor heavy chain H6	1313			3_1:1	
+Q6XPR3	Repetin	784			6_3:1	
+Q6ZQN7	Solute carrier organic anion transporter family member 4C1	724			5_2:1	
+Q6ZR54	Putative uncharacterized protein FLJ46641	194			3_1:1	
+Q6ZWE6	Pleckstrin homology domain-containing family M member 3	761			3_1:1	
+Q709C8	Vacuolar protein sorting-associated protein 13C	3753			3_1:1,01:12	
+Q70CQ2	Ubiquitin carboxyl-terminal hydrolase 34	3546			3_1:1,01:11	
+Q71RS6	Sodium/potassium/calcium exchanger 5	500			3_1:1	
+Q75N03	E3 ubiquitin-protein ligase Hakai	491			3_1:1	
+Q75N90	Fibrillin-3	2809			3_1:2,not_calc:2,01:5	
+Q765P7	Protein MTSS 2	747			3_1:1	
+Q7L0Y3	tRNA methyltransferase 10 homolog C	403	5nfj,7onu		3_1:1	
+Q7L311	Armadillo repeat-containing X-linked protein 2	632			3_1:1	
+Q7RTV0	PHD finger-like domain-containing protein 5A	110	5ife,5o9z,5syb,5z56,5z57,5z58,5zya,6ah0,6ahd,6en4,6ff4,6ff7,6qx9,6y50,6y5q,7abg,7abh,7abi,7b0i,7b91,7b92,7b9c,7dvq,7omf,7onb,7opi	K31_pub:5zya,6qx9,5syb,5ife,5o9z,5z57,5z56 K41_unpub:6y5q,7abg K31_unpub:7abg,6ah0,6ahd,6y50,6y5q,7abh,7abi,7b91 K52_unpub:7abg S31_pub:6ff4,6en4 S31_unpub:6ah0,6y5q,7abg	3_1:1	
+Q7RTX0	Taste receptor type 1 member 3	852			3_1:1	
+Q7Z353	Highly divergent homeobox	690	2da4		3_1:1	
+Q7Z408	CUB and sushi domain-containing protein 2	3487			3_1:1,01:11	
+Q7Z417	Nuclear fragile X mental retardation-interacting protein 2	695			3_1:1	
+Q7Z5M5	Transmembrane channel-like protein 3	1100			3_1:1	
+Q7Z5P9	Mucin-19	8384			not_calc:21,9_0:1,01:14	
+Q7Z5Q1	Cytoplasmic polyadenylation element-binding protein 2	589			3_1:1	
+Q7Z6L1	Tectonin beta-propeller repeat-containing protein 1	1165	4tq1		3_1:1	
+Q7Z6Z7	E3 ubiquitin-protein ligase HUWE1	4374	6PFL, 2MUL, 2EKK, 3G1N, 3H1D, 7MOP, 7MWD, 7MWE, 7MWF, 7JQ9, 5C6H, 5LP8, 6FYH, 6MIW		3_1:1,not_calc:7,01:8	
+Q7Z739	YTH domain-containing family protein 3	585	6zot		3_1:1	
+Q86UQ4	ATP-binding cassette sub-family A member 13	5058			3_1#17_0:1,01:19	
+Q86V20	Shieldin complex subunit 2	835	6kto,6wwa,7l9p		3_1:1	
+Q86V87	FHF complex subunit HOOK interacting protein 2B	743			3_1:1	
+Q86VE0	Myb-related transcription factor, partner of profilin	399			3_1:1	
+Q86VQ0	Lebercilin	697			4_1:1	
+Q86WP2	Vasculin	473			3_1:1	
+Q86XD8	AN1-type zinc finger protein 4	727			3_1:1	
+Q8IU60	m7GpppN-mRNA hydrolase	420	5QOL, 5QOK, 5QON, 5QOM, 5QOP, 5QP1, 5QOO, 5QP0, 5QOR, 5QP3, 5QOQ, 5QP2, 5QOH, 5QOJ, 5QOI, 5QPA, 5QPC, 5QPB, 5QOT, 5QP5, 5QOS, 5QP4, 5QOV, 5QP7, 5QOU, 5QP6, 5QOX, 5QP9, 5QOW, 5QP8, 5QOZ, 5QOY, 5MP0		3_1:1	
+Q8IUR6	CREB3 regulatory factor	639			3_1:1	
+Q8IVT2	Mitotic interactor and substrate of PLK1	679			3_1:1	
+Q8IX03	Protein KIBRA	1113	2z0u,6fb4,6fd0,6fjc,6fjd		5_1:1	
+Q8IXF0	Neuronal PAS domain-containing protein 3	933			3_1:1	
+Q8IYA8	Interactor of HORMAD1 protein 1	594			3_1:1	
+Q8IYX7	Stabilizer of axonemal microtubules 1	474			3_1:1	
+Q8N1Q1	Carbonic anhydrase 13	262	4KNM, 4KNN, 3CZV, 3DA2, 4HU1, 5LLN, 5LLA, 5E2N, 5OGJ, 5OHH, 6G5U, 4QIZ, 4QJX, 4QJP, 4QSJ, 3D0N	K31_pub:5lln,3czv,4knn S31_pub:4qjp,3d0n,5ogj,4qsj,5ohh,4qiz,5e2n,4hu1,5lla,4qjx,4knm,3da2,6g5u	3_1:1	
+Q8N307	Mucin-20	709			3_1:1	
+Q8N5C7	tRNA-uridine aminocarboxypropyltransferase 1	304			3_1:1	
+Q8N5G2	Macoilin	664			3_1:1	
+Q8N5Y2	Male-specific lethal 3 homolog	521	2y0n,3oa6,3ob9		4_1:1	
+Q8N612	FHF complex subunit HOOK interacting protein 1B	972			3_1:1	
+Q8N693	Homeobox protein ESX1	406			3_1:1	
+Q8N6L0	Protein KASH5	562	6r2i,6wmf		3_1:1	
+Q8N7X4	Melanoma-associated antigen B6	407			3_1:1	
+Q8N8S7	Protein enabled homolog	591	2ho2,2iyb,2xqn,4my6,5n91,5n9c,5n9p,5naj,5nbf,5nbx,5nc2,5nc7,5ncf,5ncg,5ncp,5nd0,5ndu,5neg,6rcf,6rcj,6rd2,6xvt,6xxr,7a5m,7aki		3_1:1	
+Q8NA70	Protein FAM47B	645			3_1:1	
+Q8NB90	ATPase family protein 2 homolog	893			3_1:1	
+Q8NBA8	tRNA-uridine aminocarboxypropyltransferase 2	298			3_1:1	
+Q8ND83	SLAIN motif-containing protein 1	568			3_1:1	
+Q8NDH3	Probable aminopeptidase NPEPL1	523			3_1:1	
+Q8NE35	Cytoplasmic polyadenylation element-binding protein 3	698	2dnl,2rug		3_1:1	
+Q8NEA6	Zinc finger protein GLIS3	775			3_1:1	
+Q8NFF2	Sodium/potassium/calcium exchanger 4	622			3_1:1	
+Q8TBC5	Zinc finger and SCAN domain-containing protein 18	510			3_1:1	
+Q8TBZ6	tRNA methyltransferase 10 homolog A	339	4fmw	K31_pub:4fmw	3_1:1	
+Q8TC92	Ecto-NOX disulfide-thiol exchanger 1	643			3_1:1	
+Q8TD17	Zinc finger protein 398	642			3_1:1	
+Q8TDY4	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein 3	903	2b0o,3lvq,3lvr		3_1:1	
+Q8TE23	Taste receptor type 1 member 2	839			3_1:1	
+Q8TE59	A disintegrin and metalloproteinase with thrombospondin motifs 19	1207			3_1:1	
+Q8TE82	SH3 domain and tetratricopeptide repeat-containing protein 1	1336			3_1:1	
+Q8TF17	SH3 domain and tetratricopeptide repeat-containing protein 2	1288			3_1:1	
+Q8TF39	Zinc finger protein 483	744	2ctu		3_1:1	
+Q8TF74	WAS/WASL-interacting protein family member 2	440			6_2:1	
+Q8WU20	Fibroblast growth factor receptor substrate 2	508	1xr0,2mfq		3_1:1	
+Q8WV44	E3 ubiquitin-protein ligase TRIM41	630	2egm		3_1:1	
+Q8WXG9	Adhesion G-protein coupled receptor V1	6306			3_1:2,not_calc:1,01:23	
+Q8WXH0	Nesprin-2	6885	4dxs,4fi9,6xf1		3_1:1,not_calc:1,01:27	
+Q8WXI7	Mucin-16	14507			3_1:1,not_calc:59,01:7	
+Q8WZ42	Titin	34350	> 40 structures		3_1:8,not_calc:42,01:116	
+Q92560	Ubiquitin carboxyl-terminal hydrolase BAP1	729			5_2:1	
+Q92750	Transcription initiation factor TFIID subunit 4B	862			3_1:1	
+Q92823	Neuronal cell adhesion molecule	1304	1uen,1uey		3_1:1	
+Q92844	TRAF family member-associated NF-kappa-B activator	425	1kzz,1l0a,5h10		3_1:1	
+Q92979	Ribosomal RNA small subunit methyltransferase NEP1	244	5fai	K31_pub:5fai	3_1:1	
+Q969F1	General transcription factor 3C polypeptide 6	213			3_1:1	
+Q96AA8	Janus kinase and microtubule-interacting protein 2	810			3_1:1	
+Q96AQ1	Coiled-coil domain-containing protein 74A	378			3_1:1	
+Q96C00	Zinc finger and BTB domain-containing protein 9	473			3_1:1	
+Q96D09	G-protein coupled receptor-associated sorting protein 2	838			3_1:1	
+Q96DN2	von Willebrand factor C and EGF domain-containing protein	955			5_2:1	
+Q96EK2	PHD finger protein 21B	531			3_1:1	
+Q96F05	Uncharacterized protein C11orf24	449			4_1:1	
+Q96GM8	Target of EGR1 protein 1	510	2fc6		3_1:1	
+Q96HC4	PDZ and LIM domain protein 5	596	2dar,2uzc		5_1:1	
+Q96IF1	LIM domain-containing protein ajuba	538			3_1:1	
+Q96JB3	Hypermethylated in cancer 2 protein	615			3_1:1	
+Q96M63	Outer dynein arm-docking complex subunit 1	670			3_1:1	
+Q96PZ7	CUB and sushi domain-containing protein 1	3564	2ehf		3_1:1,01:11	
+Q96RL1	BRCA1-A complex subunit RAP80	719	2mkf,2mkg,2n9e,2rr9		3_1:1	
+Q96RN1	Testis anion transporter 1	970			3_1:1	
+Q96RW7	Hemicentin-1	5635			3_1:1,not_calc:3,01:19	
+Q96S65	Cysteine/serine-rich nuclear protein 1	589			3_1:1	
+Q96SQ7	Protein atonal homolog 8	321			4_1:1	
+Q96TA1	Protein Niban 2	746	7ctp		4_1:1	
+Q99698	Lysosomal-trafficking regulator	3801			4_1:1,01:13	
+Q99715	Collagen alpha-1(XII) chain	3063			3_1:1,01:9	
+Q99814	Endothelial PAS domain-containing protein 1	870	1p97,2a24,3f1n,3f1o,3f1p,3h7w,3h82,4ghi,4gs9,4pky,4xt2,5kiz,5tbm,5ufp,6bvb,6czw,6d09,6d0b,6d0c,6i7q,6i7r,6x21,6x28,6x2h,6x37,6x3d		3_1:1	
+Q99941	Cyclic AMP-dependent transcription factor ATF-6 beta	703			3_1:1	
+Q9BQK8	Phosphatidate phosphatase LPIN3	851			5_2:1	
+Q9BUH8	Brain-enriched guanylate kinase-associated protein	593			6_3:1	
+Q9BUT9	MAPK regulated corepressor interacting protein 2	160			3_1:1	
+Q9BVL2	Nucleoporin p58/p45	599	4jo7,4jo9,4jq5,5ijn,5ijo		3_1:1	
+Q9BW04	Specifically androgen-regulated gene protein	601			3_1:1	
+Q9BYN7	Zinc finger protein 341	854			3_1:1	
+Q9BZE1	39S ribosomal protein L37, mitochondrial	423	6NU2, 6NU3, 7A5F, 7A5H, 7A5G, 7A5J, 7A5I, 7A5K, 6ZM6, 6ZM5, 7L20, 3J9M, 7O9K, 7O9M, 7ODT, 7ODR, 7ODS, 7OF6, 7OF7, 7OF0, 7OF4, 7OF5, 7OF2, 7OF3, 7OG4, 7L08, 6ZSG, 6ZSB, 6ZSA, 6ZSD, 6ZSC, 6ZSE, 6ZS9, 6I9R, 5OOM, 5OOL, 3J7Y, 6VMI, 6VLZ		3_1:1	
+Q9C0D0	Phosphatase and actin regulator 1	580	6zee,6zef,6zeg,6zeh,6zei,6zej		3_1:1	
+Q9H074	Polyadenylate-binding protein-interacting protein 1	479	1jh4,3ntw,3rk6,6yxj		3_1:1	
+Q9H089	Large subunit GTPase 1 homolog	658	6lsr		3_1:1	
+Q9H0L4	Cleavage stimulation factor subunit 2 tau variant	616			3_1:1	
+Q9H156	SLIT and NTRK-like protein 2	845			5_1:1	
+Q9H2S9	Zinc finger protein Eos	585	2ma7		3_1:1	
+Q9H347	Ubiquilin-3	655	1wx7,1yqb,2dah		3_1:1	
+Q9H4G0	Band 4.1-like protein 1	881			3_1:1	
+Q9H4L7	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A containing DEAD/H box 1	1026	6h3a,6qu1		3_1:1	
+Q9H7C4	Syncoilin	482			3_1:1	
+Q9H8X9	Palmitoyltransferase ZDHHC11	412			3_1:1	
+Q9H974	Queuine tRNA-ribosyltransferase accessory subunit 2	415	7nq4		3_1:1	
+Q9H992	E3 ubiquitin-protein ligase MARCHF7	704			3_1:1	
+Q9H9P5	Putative E3 ubiquitin-protein ligase UNKL	680			3_1:1	
+Q9HBB8	Cadherin-related family member 5	845	6oae		3_1:1	
+Q9HBJ7	Ubiquitin carboxyl-terminal hydrolase 29	922			3_1:1	
+Q9HC36	rRNA methyltransferase 3, mitochondrial	420			3_1:1	
+Q9HC58	Sodium/potassium/calcium exchanger 3	644			3_1:1	
+Q9HCC9	Lateral signaling target protein 2 homolog	887			4_1:1	
+Q9HCE1	Helicase MOV-10	1003			3_1:1	
+Q9HCE6	Rho guanine nucleotide exchange factor 10-like protein	1279			3_1:1	
+Q9HCU0	Endosialin	757			3_1:1	
+Q9NP74	Palmdelphin	551			3_1:1	
+Q9NP92	39S ribosomal protein S30, mitochondrial	439	6I9R, 6NU2, 6NU3, 6VMI, 6VLZ, 7O9K, 7O9M, 7L08, 7L20, 6ZSG, 6ZSB, 6ZSA, 6ZSD, 6ZSC, 6ZSE, 6ZS9, 7A5F, 7A5H, 7A5G, 7A5J, 7A5I, 7A5K, 6ZM6, 6ZM5, 5OOM, 5OOL, 3J9M, 3J7Y, 7ODT, 7ODR, 7ODS, 7OF6, 7OF7, 7OF0, 7OF4, 7OF5, 7OF2, 7OF3, 7OG4		3_1:1	
+Q9NPI6	mRNA-decapping enzyme 1A	582	2wx3,4b6h		4_1:1	
+Q9NQV7	Histone-lysine N-methyltransferase PRDM9	894	4ijd,5egb,5eh2,5ei9,6nm4		3_1:1	
+Q9NQV8	PR domain zinc finger protein 8	689			3_1:1	
+Q9NRL3	Striatin-4	753			3_1:1	
+Q9NRM7	Serine/threonine-protein kinase LATS2	1088	4zri		3_1:1	
+Q9NS85	Carbonic anhydrase-related protein 10	328			3_1:1	
+Q9NVC6	Mediator of RNA polymerase II transcription subunit 17	651	7emf,7ena,7enc,7enj,7lbm,7nvr		3_1:1	
+Q9NY43	BarH-like 2 homeobox protein	387			3_1:1	
+Q9NYA4	Myotubularin-related protein 4	1195			3_1:1	
+Q9NYQ8	Protocadherin Fat 2	4349			3_1:1,not_calc:2,01:13	
+Q9NYU1	UDP-glucose:glycoprotein glucosyltransferase 2	1516			3_1:1	
+Q9NYU2	UDP-glucose:glycoprotein glucosyltransferase 1	1555			3_1:1	
+Q9NZR2	Low-density lipoprotein receptor-related protein 1B	4599			3_1:1,5_1:1,01:15	
+Q9NZT2	Opioid growth factor receptor	677			3_1:1	
+Q9P2J2	Protein turtle homolog A	1179	1v5j		3_1:1	
+Q9P2Y4	Zinc finger protein 219	722			3_1:1	
+Q9UER7	Death domain-associated protein 6	740	2kqs,2kzs,2kzu,4h9n,4h9o,4h9p,4h9q,4h9r,4h9s,4hga,5grq,5kdm,5y18,5y6o		3_1:1	
+Q9UFB7	Zinc finger and BTB domain-containing protein 47	747			3_1:1	
+Q9UGR2	Zinc finger CCCH domain-containing protein 7B	977			3_1:1	
+Q9UHK0	Nuclear fragile X mental retardation-interacting protein 1	495	5l85		3_1:1	
+Q9UI40	Sodium/potassium/calcium exchanger 2	661			3_1:1	
+Q9UIU6	Homeobox protein SIX4	781			3_1:1	
+Q9UJ04	Testis-specific Y-encoded-like protein 4	414			3_1:1	
+Q9UJK0	18S rRNA aminocarboxypropyltransferase	312			3_1:1	
+Q9UJU5	Forkhead box protein D3	478			3_1:1	
+Q9UKI9	POU domain, class 2, transcription factor 3	436			3_1:1	
+	Unconventional myosin-XV	3530	6kz1		3_1:2,not_calc:5,01:5	
+Q9ULG6	Cell cycle progression protein 1	757	7d0e		3_1:1	
+Q9ULX7	Carbonic anhydrase 14	337	4lu3,5cjf	K31_pub:4lu3,5cjf	3_1:1	
+Q9UNY5	Zinc finger protein 232	417			3_1:1	
+Q9UPN9	E3 ubiquitin-protein ligase TRIM33	1127	3u5m,3u5n,3u5o,3u5p,5mr8		3_1:1	
+Q9UPR5	Sodium/calcium exchanger 2	921			3_1:1	
+Q9UPR6	Zinc finger RNA-binding protein 2	939			3_1:1	
+Q9UPY6	Wiskott-Aldrich syndrome protein family member 3	502			3_1:1	
+Q9UQC9	Calcium-activated chloride channel regulator 2	943			3_1:1	
+Q9Y2D0	Carbonic anhydrase 5B, mitochondrial	317			3_1:1	
+Q9Y2G4	Ankyrin repeat domain-containing protein 6	727			3_1:1	
+Q9Y2K6	Ubiquitin carboxyl-terminal hydrolase 20	914	6kcz		4_1:1	
+Q9Y2R2	Tyrosine-protein phosphatase non-receptor type 22	807	2p6x,2qcj,2qct,3brh,3h2x,3olr,3omh,4j51		3_1:1	
+Q9Y493	Zonadhesin	2812			3_1:1,not_calc:2,01:6	
+Q9Y4A8	Nuclear factor erythroid 2-related factor 3	694			3_1:1	
+Q9Y4D8	Probable E3 ubiquitin-protein ligase HECTD4	3996			4_1:1,01:13	
+Q9Y5A9	YTH domain-containing family protein 2	579	4rdn,4rdo,4wqn,7a1v		3_1:1	
+Q9Y5F6	Protocadherin gamma-C5	944			3_1:1	
+Q9Y5K5	Ubiquitin carboxyl-terminal hydrolase isozyme L5	329	3a7s,3ihr,3rii,3ris,3tb3,4uel,4uem,4uf5,4uf6,4wlp	K31_pub:3a7s,3ihr,3rii,3ris,4uf6,4wlp,4uf5,4uem,4uel K52_pub:3a7s,3ihr,3rii,3ris,4uf6,4wlp,4uf5,4uem,4uel S31_pub:3tb3	5_2:1	
+Q9Y5V3	Melanoma-associated antigen D1	778			4_1:1	
+Q9Y608	Leucine-rich repeat flightless-interacting protein 2	721			3_1:1	
+Q9Y6R0	Numb-like protein	609	3f0w		3_1:1	
