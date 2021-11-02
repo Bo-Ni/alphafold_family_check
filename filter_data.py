@@ -1,8 +1,8 @@
+from tqdm import tqdm
 from matplotlib import pyplot as plt
 from urllib import request
 
 def draw_blobs(data):
-
     plot_title = data[0][0]
     main_range = [int(data[0][1]), int(data[0][2])]
     full_range = [0, data[0][-1]]
@@ -11,7 +11,7 @@ def draw_blobs(data):
     plt.figure(figsize=((8, 4)))
     plt.hlines(0.5, full_range[0], full_range[1], color="k", linewidth=3)
     plt.hlines(0.5, main_range[0], main_range[1], color="g", linewidth=10)
-    plt.text(x=main_range[0] + ((main_range[1] - main_range[0]) // 2), y=0.65, s=plot_title, fontsize=15)
+    plt.text(x=((full_range[1] - full_range[0]) // 2), y=0.75, s=plot_title, fontsize=15)
     plt.text(main_range[0], 0.6, str(main_range[0]))
     plt.text(main_range[1], 0.6, str(main_range[1]))
     for i in mini_ranges:
@@ -28,7 +28,7 @@ def draw_blobs(data):
     plt.show()
 
 
-data_h = open("savefile.txt")
+data_h = open("savefilec.txt")
 data = data_h.readlines()
 data_h.close()
 data_a = [i.rstrip().split(";") for i in data]
@@ -44,17 +44,31 @@ data_h.close()
 data_p = [i.rstrip().split("\t") for i in data]
 data_p = [[i[0], i[3]] for i in data_p]
 
+# for i0 in tqdm(range(len(data_a))):
+#     url = f"https://www.uniprot.org/uniprot/{data_a[i0][0][0]}.txt"
+#     temp_url = request.urlopen(url)
+#     temp_url = temp_url.readlines()
+#     temp_url = int(temp_url[0].decode("utf-8").rstrip().split(";")[-1].strip().rstrip(" AA."))
+#     data_a[i0][0].append(temp_url)
+#     for i in range(len(data_a[i0][1])):
+#         for i1 in range(len(data_p)):
+#             if data_a[i0][1][i][0] == data_p[i1][0]:
+#                 t = [data_p[i1][1]]
+#                 t.extend(data_a[i0][1][i])
+#                 data_a[i0][1][i] = t
+#     draw_blobs(data_a[i0])
+
+result = {}
 for i0 in range(len(data_a)):
-    url = f"https://www.uniprot.org/uniprot/{data_a[i0][0][0]}.txt"
-    temp_url = request.urlopen(url)
-    temp_url = temp_url.readlines()
-    temp_url = int(temp_url[0].decode("utf-8").rstrip().split(";")[-1].strip().rstrip(" AA."))
-    data_a[i0][0].append(temp_url)
+    temp = []
     for i in range(len(data_a[i0][1])):
         for i1 in range(len(data_p)):
-            if data_a[i0][1][i][0] == data_p[i1][0]:
-                t = [data_p[i1][1]]
-                t.extend(data_a[i0][1][i])
-                data_a[i0][1][i] = t
-    draw_blobs(data_a[i0])
+            if data_p[i1][0] == data_a[i0][1][i][0]:
+                temp.append(data_p[i1][1])
+    if ";".join(temp) not in result:
+        result[";".join(temp)] = [data_a[i0][0][0]]
+    else:
+        result[";".join(temp)].append(data_a[i0][0][0])
 
+for i in result:
+    print(len(result[i]), i, result[i])
