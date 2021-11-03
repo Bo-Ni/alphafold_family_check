@@ -1,0 +1,52 @@
+Domains (Pfam families): NO FAMILY  Number of hits:  14
+	Q9UQC9 -- knot: 3_1:1
+	O95905 -- knot: 3_1:1
+	Q6PF06 -- knot: 3_1:1
+	Q8NBA8 -- knot: 3_1:1
+	P35218 -- knot: 3_1:1
+	O75493 -- knot: 3_1:1
+	Q9NS85 -- knot: 3_1:1
+	Q9Y2D0 -- knot: 3_1:1
+	Q9NQV8 -- knot: 3_1:1
+	Q9HC36 -- knot: 3_1:1
+	Q8N5C7 -- knot: 3_1:1
+	Q5XX13 -- knot: 3_1:1
+	O95170 -- knot: 3_1:1
+	Q8TE82 -- knot: 3_1:1
+Domains (Pfam families): Na_Ca_ex;Na_Ca_ex  Number of hits:  4
+	Q9HC58 -- knot: 3_1:1
+	Q9UI40 -- knot: 3_1:1
+	Q71RS6 -- knot: 3_1:1
+	Q8NFF2 -- knot: 3_1:1
+Domains (Pfam families): Na_Ca_ex;Calx-beta;Calx-beta;Na_Ca_ex_C  Number of hits:  3
+	P32418 -- knot: 3_1:1
+	P57103 -- knot: 3_1:1
+	Q9UPR5 -- knot: 3_1:1
+Domains (Pfam families): ANF_receptor  Number of hits:  2
+	Q8TE23 -- knot: 3_1:1
+	Q7RTX0 -- knot: 3_1:1
+Domains (Pfam families): Thioredoxin_12;Thioredoxin_13;Thioredoxin_14;Thioredoxin_15  Number of hits:  2
+	Q9NYU1 -- knot: 3_1:1
+	Q9NYU2 -- knot: 3_1:1
+Domains (Pfam families): VWA  Number of hits:  2
+	Q14CN2 -- knot: 3_1:1
+	Q6UXX5 -- knot: 3_1:1
+Domains (Pfam families): KELAA;DUF5917  Number of hits:  2
+	Q86V87 -- knot: 3_1:1
+	Q5W0V3 -- knot: 3_1:1
+Domains (Pfam families): Peptidase_C12  Number of hits:  1
+	Q92560 -- knot: 5_2:1
+Domains (Pfam families): Sulfate_transp  Number of hits:  1
+	Q96RN1 -- knot: 3_1:1
+Domains (Pfam families): Na_Ca_ex  Number of hits:  1
+	Q6J4K2 -- knot: 3_1:1
+Domains (Pfam families): SpoU_methylase  Number of hits:  1
+	Q6IN84 -- knot: 3_1:1
+Domains (Pfam families): HCO3_cotransp  Number of hits:  1
+	Q6U841 -- knot: 3_1:1
+Domains (Pfam families): Pdase_M17_N2  Number of hits:  1
+	Q8NDH3 -- knot: 3_1:1
+Domains (Pfam families): VWA_3  Number of hits:  1
+	O00534 -- knot: 6_3:1
+Domains (Pfam families): Ribo_biogen_C  Number of hits:  1
+	Q9UJK0 -- knot: 3_1:1
