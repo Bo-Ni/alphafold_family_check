@@ -28,7 +28,7 @@ def draw_blobs(data):
     plt.show()
 
 
-data_h = open("savefilec.txt")
+data_h = open("temp_files/savefilec.txt")
 data = data_h.readlines()
 data_h.close()
 data_a = [i.rstrip().split(";") for i in data]
@@ -38,7 +38,7 @@ for i in range(len(data_a)):
         data_a[i][1] = []
 
 
-data_h = open("Pfam-A.clans.tsv")
+data_h = open("input_files/Pfam-A.clans.tsv")
 data = data_h.readlines()
 data_h.close()
 data_p = [i.rstrip().split("\t") for i in data]
@@ -83,7 +83,7 @@ list_names.sort(key=lambda i: len(result[i]), reverse=True)
 # print(len(result))
 # print(len(all_families))
 
-data_h = open("AF_human - Arkusz1.tsv")
+data_h = open("input_files/AF_human - Arkusz1.tsv")
 data = data_h.readlines()
 data_h.close()
 data_k = [i.rstrip().split("\t") for i in data[1:]]
