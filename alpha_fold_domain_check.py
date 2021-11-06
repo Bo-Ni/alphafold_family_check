@@ -2,13 +2,16 @@ from tqdm import tqdm
 from urllib import request
 import xmltodict
 import os
+import multiprocessing
 
 
-def alpha_fold_knot_family_check(data, parsed_tsv=None, savefile=None):
+def alpha_fold_knot_family_check(data, parsed_tsv=None, savefile=None, multi=False, threads=2):
     """
     :param data: list of [Uniprot IDs, start_index, end_index]
     :param parsed_tsv: path to parsed Uniprot table containing: UniID, PfamFamilyID, OrganismID. If file doesn't exist, it will be created.
     :param savefile: path to temporary calculations saved in batches, made to recover after crash. If file doesn't exist, it will be created.
+    :param multi: enable multiprocessing
+    :param threads: n. of parallel threads
     """
 
     def parse_data_from_Uniprot(data, filename):
@@ -127,15 +130,23 @@ def alpha_fold_knot_family_check(data, parsed_tsv=None, savefile=None):
 
     for i0 in tqdm(range(len(data))):
         temp_batch_string = []
-        for i in range(len(data[i0])):
-            domain_result = check_knot_families(data[i0][i][0], [data[i0][i][1], data[i0][i][2]])
-            temp_string = ";".join(["_".join([str(i0) for i0 in data[i0][i]]),
-                                    ",".join(["_".join([str(i0) for i0 in i]) for i in domain_result])]) + "\n"
-            temp_batch_string.append(temp_string)
-            final_result.append([data[i0][i], domain_result])
+        if multi:  # TODO -----------------------------------------
+            with multiprocessing.Pool(threads) as p:
+                all_domain_result = p.map(data[i0], check_knot_families)  # --------------------------------
+                for domain_result in all_domain_result:
+                    temp_string = ";".join(["_".join([str(i0) for i0 in data[i0][i]]),
+                                            ",".join(["_".join([str(i0) for i0 in i]) for i in domain_result])]) + "\n" # ----------------------------
+                    temp_batch_string.append(temp_string)
+                    final_result.append([data[i0][i], domain_result]) # ----------------------------
+        else:
+            for i in range(len(data[i0])):
+                domain_result = check_knot_families(data[i0][i][0], [data[i0][i][1], data[i0][i][2]])
+                temp_string = ";".join(["_".join([str(i0) for i0 in data[i0][i]]),
+                                        ",".join(["_".join([str(i0) for i0 in i]) for i in domain_result])]) + "\n"
+                temp_batch_string.append(temp_string)
+                final_result.append([data[i0][i], domain_result])
         temp_file = open(savefile_name, "a")
         temp_file.write("".join(temp_batch_string))
         temp_file.close()
-
 
     return final_result
