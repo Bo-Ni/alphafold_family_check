@@ -18,7 +18,7 @@ from alpha_fold_domain_check import alpha_fold_knot_family_check
 
 ## ----- ALL DATA ------
 
-data_h = open("AF_non-human - All (1).tsv")
+data_h = open("input_files/AF_non-human - All (1).tsv")
 data = data_h.readlines()
 data_h.close()
 UNI_IDso = [i.split("\t") for i in data[1:]]

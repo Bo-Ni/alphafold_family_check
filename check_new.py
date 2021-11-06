@@ -41,7 +41,7 @@ def decision_func(data):
     return data
 
 
-data_h = open("savefilec.txt")
+data_h = open("temp_files/savefilec.txt")
 data = data_h.readlines()
 data_h.close()
 data_s = [i.rstrip().split(";") for i in data]

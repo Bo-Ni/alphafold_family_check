@@ -29,7 +29,7 @@ def alpha_fold_knot_family_check(data, parsed_tsv=None, savefile=None, multi=Fal
         if filename:
             newfile = open(filename, "w")
         else:
-            newfile = open("uni_parsed_data.tsv", "w")
+            newfile = open("temp_files/uni_parsed_data.tsv", "w")
 
         for i in parsed_data:
             newfile.write(i)
