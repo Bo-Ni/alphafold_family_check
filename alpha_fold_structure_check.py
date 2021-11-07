@@ -1,6 +1,7 @@
 from urllib import request
+import asyncio
 
-def AlphaFoldStructureCheck(input_data):
+async def AlphaFoldStructureCheck(input_data):
     """
     :param input_data: List of Uniprot IDs ["A0A081RPU7", "A0A087S697",	"A0A087S2L9", ...]
     :return:
@@ -24,7 +25,7 @@ def AlphaFoldStructureCheck(input_data):
         pdb_exists = [i.decode("utf-8").rstrip().split("\t") for i in pdb_exists[1:]]
         no_pdb = [i[0] for i in pdb_exists if len(i) == 1]
         pdb_exists = [i for i in pdb_exists if len(i) == 2]
-        pdb_exists = [[i[0], i[1].rstrip(";").split(";")] for i in pdb_exists]
+        pdb_exists = [[i[0], "prot", i[1].rstrip(";").split(";")] for i in pdb_exists]
 
         return no_pdb, pdb_exists
 
@@ -43,10 +44,10 @@ def AlphaFoldStructureCheck(input_data):
             for i in temp_clusters:
                 if "UniRef50" in i[0]:
                     chosen_cluster = i
-                    identity = '50'
+                    identity = '50_hom'
                     break
                 elif "UniRef90" in i[0]:
-                    identity = '90'
+                    identity = '90_hom'
                     chosen_cluster = i
 
             if chosen_cluster:
@@ -62,7 +63,7 @@ def AlphaFoldStructureCheck(input_data):
                     all_PDBS_exist.extend(temp_exists)
                 result.append([UniID, identity, cluster_size, len(all_PDBS_exist)])
             else:
-                result.append([UniID, None, None, None])
+                result.append([UniID, 'no_data', 0, 0])
 
         return result
 
@@ -70,11 +71,11 @@ def AlphaFoldStructureCheck(input_data):
     no_pdb, pdb_exists = CheckPDBExists(input_data)
     homolog_result = CheckHomologExists(no_pdb)
 
-    for i in pdb_exists:
-        print(i)
-    for i in homolog_result:
-        print(i)
+    result = pdb_exists
+    result.extend(homolog_result)
+    return result
 
 
-AlphaFoldStructureCheck(["Q9FLD5", "Q6PL18", "Q5T9A4", "Q925I1", "P32795", "Q12019"])
+if __name__ == "__main__":
+    AlphaFoldStructureCheck(["Q9FLD5", "Q6PL18", "Q5T9A4", "Q925I1", "P32795", "Q12019"])
 
