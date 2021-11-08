@@ -33,8 +33,10 @@ def AlphaFoldWorkflow(data, savefile=None):
         return MAIN_WORKER
 
 
-    if not savefile or not os.path.exists(savefile):
+    if not savefile:
         savefile_name = "savefile.txt"
+    elif not os.path.exists(savefile):
+        savefile_name = savefile
     elif os.path.exists(savefile):
         savefile_name = savefile
         data = continue_search(data, savefile)
@@ -74,4 +76,5 @@ def AlphaFoldWorkflow(data, savefile=None):
 
 
 if __name__ == "__main__":
-    AlphaFoldWorkflow([["Q9FLD5", 1, 100], ["Q6PL18", 1, 100], ["Q5T9A4", 1, 100]])
+    res = AlphaFoldWorkflow([["Q9FLD5", 1, 100], ["Q6PL18", 1, 100], ["Q5T9A4", 1, 100]])
+    # print(res)

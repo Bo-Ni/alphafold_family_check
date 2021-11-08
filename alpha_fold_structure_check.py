@@ -67,7 +67,6 @@ async def AlphaFoldStructureCheck(input_data):
 
         return result
 
-
     no_pdb, pdb_exists = CheckPDBExists(input_data)
     homolog_result = CheckHomologExists(no_pdb)
 
