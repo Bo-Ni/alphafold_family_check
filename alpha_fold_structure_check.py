@@ -20,10 +20,8 @@ async def AlphaFoldStructureCheck(input_data):
 
         insert_text = "%20OR%20id:".join(input_data)
         url = f"https://www.uniprot.org/uniprot/?query=id:{insert_text}&format=tab&columns=id,database(PDB)&sort=score"
-        print(url)
         pdb_exists = request.urlopen(url)
         pdb_exists = pdb_exists.readlines()
-        print("after")
         pdb_exists = [i.decode("utf-8").rstrip().split("\t") for i in pdb_exists[1:]]
         no_pdb = [i[0] for i in pdb_exists if len(i) == 1]
         pdb_exists = [i for i in pdb_exists if len(i) == 2]
@@ -33,7 +31,7 @@ async def AlphaFoldStructureCheck(input_data):
 
     def CheckHomologExists(input_data):
         insert_text = "%20OR%20uniprot:".join(input_data)
-        url = f"https://www.uniprot.org/uniref/?query=uniprot:{insert_text}&format=tab&limit=10&columns=id,count,members&sort=score"
+        url = f"https://www.uniprot.org/uniref/?query=uniprot:{insert_text}&format=tab&columns=id,count,members&sort=score"
         clusters = request.urlopen(url)
         clusters = clusters.readlines()
         clusters = [i.decode("utf-8").rstrip().split("\t") for i in clusters[1:]]
@@ -64,17 +62,19 @@ async def AlphaFoldStructureCheck(input_data):
                     temp_no_pdb, temp_exists = CheckPDBExists(i1)
                     all_no_PDBS.extend(temp_no_pdb)
                     all_PDBS_exist.extend(temp_exists)
-                result.append([UniID, identity, cluster_size, len(all_PDBS_exist)])
+                result.append([UniID, identity, cluster_size, all_PDBS_exist])
             else:
-                result.append([UniID, 'nodata', 0, 0])
+                result.append([UniID, 'nodata', 0, []])
 
         return result
 
     no_pdb, pdb_exists = CheckPDBExists(input_data)
-    homolog_result = CheckHomologExists(no_pdb)
-
     result = pdb_exists
-    result.extend(homolog_result)
+
+    if no_pdb:
+        homolog_result = CheckHomologExists(no_pdb)
+        result.extend(homolog_result)
+
     return result
 
 

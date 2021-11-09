@@ -89,9 +89,9 @@ async def AlphaFoldKnotDomainCheck(data):
                         else:
                             all_families_dict[i2] = 1
                 all_families_dict = [[i, all_families_dict[i]] for i in all_families_dict]
-                result.append([UniID, [identity, cluster_size], all_families_dict])
+                result.append([UniID, identity, cluster_size, all_families_dict])
             else:
-                result.append([UniID, ['nodata', 0], []])
+                result.append([UniID, 'nodata', 0, []])
 
         return result
 
@@ -101,7 +101,7 @@ async def AlphaFoldKnotDomainCheck(data):
         domain_result = CheckPfamFamiliesExist(data[i0][0], [data[i0][1], data[i0][2]])
 
         if domain_result:
-            final_result.append([data[i0], ["prot", 0], domain_result])
+            final_result.append([data[i0], "prot", 0, domain_result])
         else:
             no_family.append(data[i0])
 

@@ -3,7 +3,29 @@ from tqdm import tqdm
 from matplotlib import pyplot as plt
 
 
-def draw_blobs(data):
+def DecodeSavefile(input_file):
+    file_h = open(input_file)
+    file = file_h.readlines()
+    file_h.close()
+    file = [i.rstrip().split(";") for i in file]
+
+    file = [[
+        i[0].split("_"),
+        i[1],
+        i[2],
+        [i1.split("_") for i1 in i[3].split(",")],
+        i[4],
+        i[5],
+        [i1 for i1 in i[6].split(",")]
+    ] for i in file]
+
+    for i in file:
+        print(len(i), i)
+
+    return file
+
+
+def DrawBlobs(data):
     plot_title = data[0][0]
     main_range = [int(data[0][1]), int(data[0][2])]
     full_range = [0, data[0][-1]]
@@ -33,31 +55,34 @@ def draw_blobs(data):
     plt.show()
 
 
-data_h = open("temp_files/savefile_human.txt")
-data = data_h.readlines()
-data_h.close()
-data_a = [i.rstrip().split(";") for i in data]
-data_a = [[i[0].split("_"), [i1.split("_") for i1 in i[1].split(",")]] for i in data_a]
-for i in range(len(data_a)):
-    if not data_a[i][1][0][0]:
-        data_a[i][1] = []
+DecodeSavefile("temp_files/savefile_human_c.txt")
 
-data_h = open("./input_files/Pfam-A.clans.tsv")
-data = data_h.readlines()
-data_h.close()
-data_p = [i.rstrip().split("\t") for i in data]
-data_p = [[i[0], i[3]] for i in data_p]
 
-for i0 in tqdm(range(len(data_a))):
-    url = f"https://www.uniprot.org/uniprot/{data_a[i0][0][0]}.txt"
-    temp_url = request.urlopen(url)
-    temp_url = temp_url.readlines()
-    temp_url = int(temp_url[0].decode("utf-8").rstrip().split(";")[-1].strip().rstrip(" AA."))
-    data_a[i0][0].append(temp_url)
-    for i in range(len(data_a[i0][1])):
-        for i1 in range(len(data_p)):
-            if data_a[i0][1][i][0] == data_p[i1][0]:
-                t = [data_p[i1][1]]
-                t.extend(data_a[i0][1][i])
-                data_a[i0][1][i] = t
-    draw_blobs(data_a[i0])
+# data_h = open("temp_files/savefile_human.txt")
+# data = data_h.readlines()
+# data_h.close()
+# data_a = [i.rstrip().split(";") for i in data]
+# data_a = [[i[0].split("_"), [i1.split("_") for i1 in i[1].split(",")]] for i in data_a]
+# for i in range(len(data_a)):
+#     if not data_a[i][1][0][0]:
+#         data_a[i][1] = []
+#
+# data_h = open("./input_files/Pfam-A.clans.tsv")
+# data = data_h.readlines()
+# data_h.close()
+# data_p = [i.rstrip().split("\t") for i in data]
+# data_p = [[i[0], i[3]] for i in data_p]
+#
+# for i0 in tqdm(range(len(data_a))):
+#     url = f"https://www.uniprot.org/uniprot/{data_a[i0][0][0]}.txt"
+#     temp_url = request.urlopen(url)
+#     temp_url = temp_url.readlines()
+#     temp_url = int(temp_url[0].decode("utf-8").rstrip().split(";")[-1].strip().rstrip(" AA."))
+#     data_a[i0][0].append(temp_url)
+#     for i in range(len(data_a[i0][1])):
+#         for i1 in range(len(data_p)):
+#             if data_a[i0][1][i][0] == data_p[i1][0]:
+#                 t = [data_p[i1][1]]
+#                 t.extend(data_a[i0][1][i])
+#                 data_a[i0][1][i] = t
+#     draw_blobs(data_a[i0])

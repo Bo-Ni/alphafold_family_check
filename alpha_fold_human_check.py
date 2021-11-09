@@ -1,6 +1,5 @@
 from alpha_fold_main import AlphaFoldWorkflow
 
-
 ## ----- HUMAN -----
 
 data_h = open("input_files/Knots on Alphafold proteins - Sulkowska LabTable.csv")
