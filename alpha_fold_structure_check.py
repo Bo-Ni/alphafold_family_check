@@ -20,12 +20,14 @@ async def AlphaFoldStructureCheck(input_data):
 
         insert_text = "%20OR%20id:".join(input_data)
         url = f"https://www.uniprot.org/uniprot/?query=id:{insert_text}&format=tab&columns=id,database(PDB)&sort=score"
+        print(url)
         pdb_exists = request.urlopen(url)
         pdb_exists = pdb_exists.readlines()
+        print("after")
         pdb_exists = [i.decode("utf-8").rstrip().split("\t") for i in pdb_exists[1:]]
         no_pdb = [i[0] for i in pdb_exists if len(i) == 1]
         pdb_exists = [i for i in pdb_exists if len(i) == 2]
-        pdb_exists = [[i[0], "prot", i[1].rstrip(";").split(";")] for i in pdb_exists]
+        pdb_exists = [[i[0], "prot", len(i[1].rstrip(";").split(";")), i[1].rstrip(";").split(";")] for i in pdb_exists]
 
         return no_pdb, pdb_exists
 
@@ -37,6 +39,7 @@ async def AlphaFoldStructureCheck(input_data):
         clusters = [i.decode("utf-8").rstrip().split("\t") for i in clusters[1:]]
         result = []
 
+
         for UniID in input_data:
             temp_clusters = [i for i in clusters if UniID in i[0]]
             chosen_cluster = None
@@ -44,10 +47,10 @@ async def AlphaFoldStructureCheck(input_data):
             for i in temp_clusters:
                 if "UniRef50" in i[0]:
                     chosen_cluster = i
-                    identity = '50_hom'
+                    identity = '50hom'
                     break
                 elif "UniRef90" in i[0]:
-                    identity = '90_hom'
+                    identity = '90hom'
                     chosen_cluster = i
 
             if chosen_cluster:
@@ -63,7 +66,7 @@ async def AlphaFoldStructureCheck(input_data):
                     all_PDBS_exist.extend(temp_exists)
                 result.append([UniID, identity, cluster_size, len(all_PDBS_exist)])
             else:
-                result.append([UniID, 'no_data', 0, 0])
+                result.append([UniID, 'nodata', 0, 0])
 
         return result
 

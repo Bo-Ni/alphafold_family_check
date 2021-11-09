@@ -61,9 +61,3 @@ for i in tqdm(range(len(urls))):
     print(result)
     result_list.append(result)
 
-
-
-
-
-
-

@@ -63,10 +63,10 @@ async def AlphaFoldKnotDomainCheck(data):
             for i in temp_clusters:
                 if "UniRef50" in i[0]:
                     chosen_cluster = i
-                    identity = '50_hom'
+                    identity = '50hom'
                     break
                 elif "UniRef90" in i[0]:
-                    identity = '90_hom'
+                    identity = '90hom'
                     chosen_cluster = i
 
             if chosen_cluster:
@@ -89,11 +89,9 @@ async def AlphaFoldKnotDomainCheck(data):
                         else:
                             all_families_dict[i2] = 1
                 all_families_dict = [[i, all_families_dict[i]] for i in all_families_dict]
-                UniID.extend([identity, cluster_size])
-                result.append([UniID, all_families_dict])
+                result.append([UniID, [identity, cluster_size], all_families_dict])
             else:
-                UniID.extend(['no_data', 0])
-                result.append([UniID, []])
+                result.append([UniID, ['nodata', 0], []])
 
         return result
 
@@ -101,17 +99,15 @@ async def AlphaFoldKnotDomainCheck(data):
     no_family = []
     for i0 in range(len(data)):
         domain_result = CheckPfamFamiliesExist(data[i0][0], [data[i0][1], data[i0][2]])
+
         if domain_result:
-            data[i0].extend(["prot", 0])
-            final_result.append([data[i0], domain_result])
+            final_result.append([data[i0], ["prot", 0], domain_result])
         else:
             no_family.append(data[i0])
 
     homolog_check = CheckHomologExists(no_family)
     final_result.extend(homolog_check)
     return final_result
-
-
 
 
 if __name__ == "__main__":

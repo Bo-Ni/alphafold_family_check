@@ -42,7 +42,7 @@ def AlphaFoldWorkflow(data, savefile=None):
         data = continue_search(data, savefile)
 
     result = []
-    batch_size = 10
+    batch_size = 1
     data = [data[i:i + batch_size] for i in range(0, len(data), batch_size)]
     for i in tqdm(range(len(data))):
         temp_batch_string_domain = []
@@ -55,17 +55,12 @@ def AlphaFoldWorkflow(data, savefile=None):
                     temp_result = i11[:]
                     temp_result.extend(i12[1:])
                     result.append(temp_result)
-                    if len(i12) == 3:
-                        temp_string = ";".join(["_".join([str(i0) for i0 in i11[0]]),
-                                                ",".join(["_".join([str(i0) for i0 in i]) for i in i11[1]]),
-                                                i12[1],
-                                                ",".join(i12[2])]) + "\n"
-                    else:
-                        temp_string = ";".join(["_".join([str(i0) for i0 in i11[0]]),
-                                                ",".join(["_".join([str(i0) for i0 in i]) for i in i11[1]]),
-                                                i12[1],
-                                                str(i12[2]),
-                                                str(i12[3])]) + "\n"
+                    temp_string = ";".join(["_".join([str(i0) for i0 in i11[0]]),
+                                            "_".join([str(i0) for i0 in i11[1]]),
+                                            ",".join(["_".join([str(i0) for i0 in i]) for i in i11[2]]),
+                                            i12[1],
+                                            str(i12[2]),
+                                            ",".join(str(i12[3]))]) + "\n"
                     temp_batch_string_domain.append(temp_string)
 
         temp_file = open(savefile_name, "a")
