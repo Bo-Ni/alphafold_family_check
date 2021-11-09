@@ -3,6 +3,19 @@
 ## Current workflow
 ![alt text](https://github.com/exsto1/alpha_fold_wrapper/blob/7b6eaa8bfa0a14e85901674893ab3cac8830503f/info/alpha_fold.png)
 
+## Usage
+```
+from alpha_fold_main import AlphaFoldWorkflow
+AlphaFoldWorkflow(INPUT_DATA, savefile="PATH/TO/SAVEFILE")
+```
+INPUT_DATA in this contex is a list with Uniprot IDs, start and end indexes (for example stating range of the knot).
+See an example below:
+
+```[["Q9FLD5", 1, 100], ["Q6PL18", 1, 100], ["Q5T9A4", 1, 100]]```
+
+"savefile" flag is especially useful for big datasets, enabling to resume search after unexpected errors, saving data in batches of 10 IDs.
+If none provided script will use default value of "savefile.txt" - link this file in the flag if you want to use it as a checkpoint after a crash.
+
 ## Savefile format and it's unpacked version
 Sample line from the sivefile looks like this:
 ```P22748_48_285;50hom;179;PF00194_92;prot;10;1ZNC,3F7B,3F7U,3FW3,5IPZ,5JN8,5JN9,5JNA,5JNC,5KU6```
