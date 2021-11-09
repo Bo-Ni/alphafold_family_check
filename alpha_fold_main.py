@@ -42,7 +42,7 @@ def AlphaFoldWorkflow(data, savefile=None):
         data = continue_search(data, savefile)
 
     result = []
-    batch_size = 5
+    batch_size = 10
     data = [data[i:i + batch_size] for i in range(0, len(data), batch_size)]
     for i in tqdm(range(len(data))):
         temp_batch_string_domain = []
