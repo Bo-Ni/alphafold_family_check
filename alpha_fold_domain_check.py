@@ -9,6 +9,10 @@ import asyncio
 async def AlphaFoldKnotDomainCheck(data):
     """
     :param data: list of [Uniprot IDs, start_index, end_index]
+    :return: Returns domain search result in one of the 2 formats.
+            For protein data - returns domains and their ranges.
+            For homologs - rturns domains and number of homologs it was found in.
+            eSee Readme for details.
     """
 
     def CheckPfamFamiliesExist(uni_id, dom_range):
@@ -35,19 +39,19 @@ async def AlphaFoldKnotDomainCheck(data):
 
         return result
 
-    def CheckUniProtFamiliesExist(input_data):
-        insert_text = "%20OR%20id:".join(input_data)
-        url = f"https://www.uniprot.org/uniprot/?query=id:{insert_text}&format=tab&columns=id,database(Pfam)&sort=score"
-        family_exists = request.urlopen(url)
-        family_exists = family_exists.readlines()
-        family_exists = [i.decode("utf-8").rstrip().split("\t") for i in family_exists[1:]]
-        no_family = [i[0] for i in family_exists if len(i) == 1]
-        family_exists = [i for i in family_exists if len(i) == 2]
-        family_exists = [[i[0], "prot", i[1].rstrip(";").split(";")] for i in family_exists]
-
-        return no_family, family_exists
-
     def CheckHomologExists(input_data):
+        def CheckUniProtFamiliesExist(input_data):
+            insert_text = "%20OR%20id:".join(input_data)
+            url = f"https://www.uniprot.org/uniprot/?query=id:{insert_text}&format=tab&columns=id,database(Pfam)&sort=score"
+            family_exists = request.urlopen(url)
+            family_exists = family_exists.readlines()
+            family_exists = [i.decode("utf-8").rstrip().split("\t") for i in family_exists[1:]]
+            no_family = [i[0] for i in family_exists if len(i) == 1]
+            family_exists = [i for i in family_exists if len(i) == 2]
+            family_exists = [[i[0], "prot", i[1].rstrip(";").split(";")] for i in family_exists]
+
+            return no_family, family_exists
+
         insert_text = "%20OR%20uniprot:".join([i[0] for i in input_data])
 
         url = f"https://www.uniprot.org/uniref/?query=uniprot:{insert_text}&format=tab&limit=10&columns=id,count,members&sort=score"

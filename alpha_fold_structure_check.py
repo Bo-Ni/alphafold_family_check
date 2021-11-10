@@ -3,8 +3,11 @@ import asyncio
 
 async def AlphaFoldStructureCheck(input_data):
     """
+    Function checking the structure data for input Uniprot IDs list.
+    Tries to find data for protein, if not found, looks for such data for homologs.
+
     :param input_data: List of Uniprot IDs ["A0A081RPU7", "A0A087S697",	"A0A087S2L9", ...]
-    :return:
+    :return: result as a list of parsed data in format: [UniprotID, dataset(see Readme), number_of_hits_found, [PDB IDs]]
     """
 
     def CheckPDBExists(input_data):
@@ -30,6 +33,12 @@ async def AlphaFoldStructureCheck(input_data):
         return no_pdb, pdb_exists
 
     def CheckHomologExists(input_data):
+        """
+        Checks structure data for protein homologs.
+
+        :param input_data: list of Uniprot IDs
+        :return: cumulative list of structures found in format same as the main function. See Readme for details.
+        """
         insert_text = "%20OR%20uniprot:".join(input_data)
         url = f"https://www.uniprot.org/uniref/?query=uniprot:{insert_text}&format=tab&columns=id,count,members&sort=score"
         clusters = request.urlopen(url)
