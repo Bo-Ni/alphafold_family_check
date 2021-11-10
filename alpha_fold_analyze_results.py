@@ -19,9 +19,6 @@ def DecodeSavefile(input_file):
         [i1 for i1 in i[6].split(",")]
     ] for i in file]
 
-    for i in file:
-        print(len(i), i)
-
     return file
 
 
@@ -85,9 +82,53 @@ def DrawPlots():  # TODO MIGHT NEED AN UPDATE
         plt.show()
 
 
-def SplitResultToCategories(data):
-    pass
+def SplitResultToCategories(data, output="output_info.txt"):
+    category1 = []  # Known structure for protein, known domains
+    category2 = []  # Known structure for homologs, known domains
+    category3 = []  # No structures for homologs, known domains for proteins of homologs
+    category4 = []  # Known structure for protein or homologs, domain unknown for protein or known for homologs
+    category5 = []  # No structures for homologs, no domains for homologs
+
+    for i in tqdm(range(len(data))):
+        if data[i][1] == "prot" and data[i][4] == "prot":
+            category1.append(data[i])
+        elif data[i][1] == "prot" and data[i][4] != "nodata" and data[i][6][0] != '':
+            category2.append(data[i])
+        elif data[i][3][0] != '' and data[i][6][0] == '':
+            category3.append(data[i])
+        elif data[i][1] != "prot" and data[i][6][0] != '':
+            category4.append(data[i])
+        else:
+            category5.append(data[i])
+            
+    newfile = open(output, "w")
+
+    newfile.write("Category 1: Known structure for protein, known domains\n")
+    for i in category1:
+        newfile.write(" ".join(["\t", "-".join(i[0]), "\n\t\t -- Domains:", ", ".join(["-".join(i1) for i1 in i[3]]), f"\n\t\t -- {i[5]} Structures:", ", ".join(i[6]), "\n"]))
+
+    newfile.write("Category 2: Known structure for homologs, known domains\n")
+    for i in category2:
+        newfile.write(" ".join(["\t", "-".join(i[0]), "\n\t\t -- Domains:", ", ".join(["-".join(i1) for i1 in i[3]]), f"\n\t\t -- {i[5]} Homologs -- {len([i1 for i1 in i[6] if i1])} Structures:" , ", ".join(i[6]), "\n"]))
+
+    newfile.write("Category 3: No structures for homologs, known domains for proteins of homologs\n")
+    for i in category3:
+        if i[1] == "prot":
+            newfile.write(" ".join(["\t", "-".join(i[0]), "\n\t\t -- Domains:", ", ".join(["-".join(i1) for i1 in i[3]]), f"\n\t\t -- {i[5]} Homologs -- {len([i1 for i1 in i[6] if i1])} Structures:" , ", ".join(i[6]), "\n"]))
+        else:
+            newfile.write(" ".join(["\t", "-".join(i[0]), f"\n\t\t -- {i[2]} Homologs -- Domains:", ", ".join(["-".join(i1) for i1 in i[3]]), f"\n\t\t -- {i[5]} Homologs -- {len([i1 for i1 in i[6] if i1])} Structures:" , ", ".join(i[6]), "\n"]))
+
+    newfile.write("Category 4: Known structure for protein or homologs, domain unknown for protein or known for homologs\n")
+    for i in category4:
+        if i[4] == "prot":
+            newfile.write(" ".join(["\t", "-".join(i[0]), f"\n\t\t -- {i[2]} Homologs -- Domains:", ", ".join(["-".join(i1) for i1 in i[3]]), f"\n\t\t -- {i[5]} Structures:", ", ".join(i[6]), "\n"]))
+        else:
+            newfile.write(" ".join(["\t", "-".join(i[0]), f"\n\t\t -- {i[2]} Homologs -- Domains:", ", ".join(["-".join(i1) for i1 in i[3]]), f"\n\t\t -- {i[5]} Homologs -- {len([i1 for i1 in i[6] if i1])} Structures:", ", ".join(i[6]), "\n"]))
+
+    newfile.write("Category 5: No structures for homologs, no domains for homologs\n")
+    for i in category5:
+        newfile.write(" ".join(["\t", "-".join(i[0]), "\n"]))
 
 
-parsed_data = DecodeSavefile("temp_files/savefile_human_c.txt")
-SplitResultToCategories(parsed_data)
+parsed_data = DecodeSavefile("temp_files/savefile_human.txt")
+SplitResultToCategories(parsed_data, output="info/human_data_summary.txt")
