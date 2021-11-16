@@ -109,8 +109,9 @@ async def AlphaFoldKnotDomainCheck(data):
         else:
             no_family.append(data[i0])
 
-    homolog_check = CheckHomologExists(no_family)
-    final_result.extend(homolog_check)
+    if no_family:
+        homolog_check = CheckHomologExists(no_family)
+        final_result.extend(homolog_check)
     return final_result
 
 

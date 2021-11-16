@@ -39,8 +39,8 @@ async def AlphaFoldStructureCheck(input_data):
         :param input_data: list of Uniprot IDs
         :return: cumulative list of structures found in format same as the main function. See Readme for details.
         """
-        insert_text = "%20OR%20uniprot:".join(input_data)
-        url = f"https://www.uniprot.org/uniref/?query=uniprot:{insert_text}&format=tab&columns=id,count,members&sort=score"
+        insert_text = r"%20OR%20uniprot:".join(input_data)
+        url = rf"https://www.uniprot.org/uniref/?query=uniprot:{insert_text}&format=tab&columns=id,count,members&sort=score"
         clusters = request.urlopen(url)
         clusters = clusters.readlines()
         clusters = [i.decode("utf-8").rstrip().split("\t") for i in clusters[1:]]
@@ -70,7 +70,9 @@ async def AlphaFoldStructureCheck(input_data):
                 for i1 in batches:
                     temp_no_pdb, temp_exists = CheckPDBExists(i1)
                     all_no_PDBS.extend(temp_no_pdb)
-                    all_PDBS_exist.extend(temp_exists)
+                    if temp_exists:
+                        for single_hom_str in [i[3] for i in temp_exists]:
+                            all_PDBS_exist.extend(single_hom_str)
                 result.append([UniID, identity, cluster_size, all_PDBS_exist])
             else:
                 result.append([UniID, 'nodata', 0, []])
