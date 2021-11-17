@@ -1,0 +1,1797 @@
+Category 1: Known structure for protein, known domains
+Category 2: Known structure for homologs, known domains
+Category 3: No structures for homologs, known domains for proteins of homologs
+	 A0A1D6FNU8-6-567 
+		 -- Domains: PF03169-317-663, PF03169-27-336 
+		 -- 21 Homologs -- 0 Structures:  
+	 A0A1D6KUJ7-21-706 
+		 -- Domains: PF14214-523-704 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6KUJ7-8-1549 
+		 -- Domains: PF05970-1116-1461, PF14214-523-704 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6NZH8-52-849 
+		 -- Domains: PF14214-752-931 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6FK08-26-1800 
+		 -- Domains: PF00046-43-98, PF02791-603-658, PF05066-784-852, PF15612-991-1036, PF15613-1172-1246 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FK08-134-1804 
+		 -- Domains: PF02791-603-658, PF05066-784-852, PF15612-991-1036, PF15613-1172-1246 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6GYP5-236-316 
+		 -- Domains: PF01094-46-408 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KM35-18-72 
+		 -- Domains: PF01088-49-233 
+		 -- 0 Homologs -- 0 Structures:  
+	 B8A2Q1-3-495 
+		 -- Domains: PF00072-85-199 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6FNU9-89-615 
+		 -- Domains: PF03169-379-617 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6FNU9-94-571 
+		 -- Domains: PF03169-379-617 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6DUP5-217-291 
+		 -- Domains: PF00251-48-332 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HPV4-3-273 
+		 -- Domains: PF01088-53-242, PF01088-3-51 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6E4E1-128-717 
+		 -- Domains: PF03169-245-722 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6E4E1-131-676 
+		 -- Domains: PF03169-245-722 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6E4E1-235-720 
+		 -- Domains: PF03169-245-722 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6E4E1-234-678 
+		 -- Domains: PF03169-245-722 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6EZN2-270-988 
+		 -- Domains: PF14214-617-798 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6EZN2-271-738 
+		 -- Domains: PF14214-617-798 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6EZN2-152-825 
+		 -- Domains: PF14214-617-798 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MBQ9-206-487 
+		 -- Domains: PF16900-344-426 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HPB7-166-387 
+		 -- Domains: PF12552-227-271 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HPB7-189-431 
+		 -- Domains: PF12552-227-271 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6ICI0-46-549 
+		 -- Domains: PF12214-321-493 
+		 -- 11 Homologs -- 0 Structures:  
+	 A0A1D6KNG9-37-244 
+		 -- Domains: PF01074-74-135, PF01074-130-212 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6KNG9-37-214 
+		 -- Domains: PF01074-74-135, PF01074-130-212 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6P727-42-325 
+		 -- Domains: PF02146-232-272, PF16796-70-160 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6P727-116-331 
+		 -- Domains: PF02146-232-272 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6JD57-3-587 
+		 -- Domains: PF13912-455-480, PF13912-330-356, PF13912-64-90 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FKV6-292-523 
+		 -- Domains: PF01450-295-441, PF01450-443-534 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FKV6-334-461 
+		 -- Domains: PF01450-443-534 
+		 -- 0 Homologs -- 0 Structures:  
+	 B4FFZ2-295-524 
+		 -- Domains: PF01450-445-530 
+		 -- 18 Homologs -- 0 Structures:  
+	 B4FFZ2-331-459 
+		 -- Domains: PF01450-445-530 
+		 -- 18 Homologs -- 0 Structures:  
+	 A0A1D6FI90-413-579 
+		 -- Domains: PF03030-572-786 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6G2B5-16-884 
+		 -- Domains: PF00310-125-552, PF04898-598-888 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6G2B5-19-710 
+		 -- Domains: PF00310-125-552, PF04898-598-888 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6E935-25-247 
+		 -- Domains: PF01490-130-375 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6Q7M3-320-426 
+		 -- Domains: PF00501-46-535 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6NQR4-39-297 
+		 -- Domains: PF13520-36-323 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6NQR4-60-261 
+		 -- Domains: PF13520-36-323 
+		 -- 0 Homologs -- 0 Structures:  
+	 Q6XFQ1-74-342 
+		 -- Domains: PF01590-216-399 
+		 -- 0 Homologs -- 0 Structures:  
+	 Q6XFQ4-77-344 
+		 -- Domains: PF01590-219-404 
+		 -- 0 Homologs -- 0 Structures:  
+	 Q6XFQ3-749-1692 
+		 -- Domains: PF00512-926-990, PF00989-784-906, PF02518-1038-1151 
+		 -- 35 Homologs -- 0 Structures:  
+	 P19862-77-345 
+		 -- Domains: PF01590-219-404 
+		 -- 83 Homologs -- 0 Structures:  
+	 Q6XFQ2-104-377 
+		 -- Domains: PF01590-252-434 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6GGX9-74-342 
+		 -- Domains: PF01590-216-399 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KTX7-124-932 
+		 -- Domains: PF03552-339-1100 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KTX7-144-614 
+		 -- Domains: PF03552-339-1100 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KK93-4-999 
+		 -- Domains: PF14214-752-933 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6KK93-394-958 
+		 -- Domains: PF14214-752-933 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6JR28-5-831 
+		 -- Domains: PF00400-27-65, PF00400-752-790 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6PQ20-138-555 
+		 -- Domains: PF01301-190-339, PF17834-429-495 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6GSA3-70-205 
+		 -- Domains: PF05793-190-565 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6JB98-254-667 
+		 -- Domains: PF13837-456-544 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MHL5-6-677 
+		 -- Domains: PF00249-113-157, PF06584-611-712 
+		 -- 10 Homologs -- 0 Structures:  
+	 B4FIE9-3-277 
+		 -- Domains: PF00438-5-103, PF02772-119-240, PF02773-242-383 
+		 -- 0 Homologs -- 0 Structures:  
+	 B8A068-3-276 
+		 -- Domains: PF00438-6-104, PF02772-120-241, PF02773-243-385 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FHW2-35-308 
+		 -- Domains: PF00438-40-138, PF02772-154-275, PF02773-277-418 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6FUX8-266-321 
+		 -- Domains: PF02773-318-460 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6JJ37-16-294 
+		 -- Domains: PF07156-170-508, PF13450-64-134 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6HTG4-15-71 
+		 -- Domains: PF03660-1-104 
+		 -- 24 Homologs -- 0 Structures:  
+	 B4FQD4-116-508 
+		 -- Domains: PF01699-336-488 
+		 -- 14 Homologs -- 0 Structures:  
+	 B4FFP3-71-336 
+		 -- Domains: PF01699-266-410, PF01699-75-233 
+		 -- 38 Homologs -- 0 Structures:  
+	 A0A1D6KGL2-269-325 
+		 -- Domains: PF13520-32-424 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6JG60-72-353 
+		 -- Domains: PF01699-275-420, PF01699-73-231 
+		 -- 0 Homologs -- 0 Structures:  
+	 B6UEI1-93-355 
+		 -- Domains: PF01699-95-254, PF01699-283-427 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6K577-24-431 
+		 -- Domains: PF01699-93-252, PF01699-281-426 
+		 -- 21 Homologs -- 0 Structures:  
+	 C0HEZ5-74-435 
+		 -- Domains: PF13520-45-435 
+		 -- 0 Homologs -- 0 Structures:  
+	 C0HEZ5-35-301 
+		 -- Domains: PF13520-45-435 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6H5N4-85-510 
+		 -- Domains: PF01699-425-571 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6GL70-115-499 
+		 -- Domains: PF01699-115-264, PF01699-414-568 
+		 -- 58 Homologs -- 0 Structures:  
+	 A0A1D6HL71-42-248 
+		 -- Domains: PF03254-125-475, PF03254-80-128 
+		 -- 0 Homologs -- 0 Structures:  
+	 B4G0C9-24-713 
+		 -- Domains: PF01699-40-215, PF01699-364-530 
+		 -- 37 Homologs -- 0 Structures:  
+	 C0PDK2-132-513 
+		 -- Domains: PF01699-427-582 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6MNI9-80-843 
+		 -- Domains: PF02670-107-225, PF13288-336-458, PF08436-239-304 
+		 -- 0 Homologs -- 0 Structures:  
+	 C0P3P5-55-1043 
+		 -- Domains: PF04034-89-215 
+		 -- 35 Homologs -- 0 Structures:  
+	 A0A1D6LR28-24-713 
+		 -- Domains: PF08263-27-68, PF13855-94-152, PF00069-406-685 
+		 -- 10 Homologs -- 0 Structures:  
+	 K7VBQ8-325-548 
+		 -- Domains: PF07714-494-768 
+		 -- 0 Homologs -- 0 Structures:  
+	 K7U9N8-746-1105 
+		 -- Domains: PF00612-807-826, PF00612-758-777, PF00612-783-803, PF00612-854-874, PF00612-831-846 
+		 -- 17 Homologs -- 0 Structures:  
+	 B4G1L2-119-515 
+		 -- Domains: PF01699-427-580 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6NL97-23-584 
+		 -- Domains: PF08263-76-114, PF13855-147-207, PF13855-266-326 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MNH0-127-546 
+		 -- Domains: PF01699-474-628, PF01699-135-281 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6LFB5-1667-1717 
+		 -- Domains: PF01746-1659-1760 
+		 -- 0 Homologs -- 0 Structures:  
+	 K7VZ07-6-543 
+		 -- Domains: PF00168-19-133, PF00168-503-614, PF00168-348-452 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6I6D8-4-734 
+		 -- Domains: PF01061-433-645, PF19055-313-434, PF00005-132-283 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6NQZ5-84-918 
+		 -- Domains: PF01422-289-307, PF01422-231-249, PF01422-384-402, PF01422-494-512, PF01422-157-185, PF01422-345-356, PF01422-112-129 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HHP2-20-539 
+		 -- Domains: PF17874-374-559, PF17874-245-380 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FCQ6-132-549 
+		 -- Domains: PF01699-472-626, PF01699-133-279 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FVM3-127-1068 
+		 -- Domains: PF04782-1034-1136, PF05970-638-982 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6I8F3-86-614 
+		 -- Domains: PF00270-186-356, PF00271-393-502 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6H1A4-309-898 
+		 -- Domains: PF14214-611-654 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6H1A4-317-2082 
+		 -- Domains: PF05970-1098-1443, PF14214-611-654 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6JCY5-24-931 
+		 -- Domains: PF12349-716-865, PF16414-129-366 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6EA75-430-2037 
+		 -- Domains: PF04762-789-1752, PF07714-471-728 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6KS86-71-353 
+		 -- Domains: PF16499-124-303 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6E0F0-90-451 
+		 -- Domains: PF03169-139-480 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6KQ06-5-330 
+		 -- Domains: PF00035-98-164, PF00035-186-252 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6E268-3-377 
+		 -- Domains: PF00534-287-380, PF00862-148-317, PF13639-145-173 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1X7YHD9-14-709 
+		 -- Domains: PF00046-102-146, PF01852-288-435, PF01852-433-476 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MG66-86-447 
+		 -- Domains: PF13520-89-500 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6MG66-84-329 
+		 -- Domains: PF13520-89-500 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6MG66-118-517 
+		 -- Domains: PF13906-449-499 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6FC28-689-1017 
+		 -- Domains: PF00400-781-823 
+		 -- 2 Homologs -- 0 Structures:  
+	 K7TIJ3-221-416 
+		 -- Domains: PF05003-389-476 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6E3C1-74-936 
+		 -- Domains: PF00326-499-633 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6NI48-128-1456 
+		 -- Domains: PF05970-1226-1571, PF14214-716-781, PF14214-620-717 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6I9B4-25-490 
+		 -- Domains: PF14214-370-545 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HIA8-183-425 
+		 -- Domains: PF05303-295-384 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6P5P7-11-749 
+		 -- Domains: PF14214-410-585 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6DXK5-354-798 
+		 -- Domains: PF05285-448-831 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FIB1-2-273 
+		 -- Domains: PF00862-148-317, PF13639-145-173 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6JPH1-456-829 
+		 -- Domains: PF06241-500-583, PF06241-460-497, PF06241-795-900 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6QNF2-595-2138 
+		 -- Domains: PF00168-1079-1201, PF06101-734-834, PF06650-1705-2021 
+		 -- 13 Homologs -- 0 Structures:  
+	 A0A1D6NFD2-2-307 
+		 -- Domains: PF00249-14-62, PF00249-68-113 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6GMD6-381-431 
+		 -- Domains: PF03942-204-486 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6HD40-56-675 
+		 -- Domains: PF05911-276-428, PF05911-578-660 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6MXQ1-764-2237 
+		 -- Domains: PF02902-1858-2063, PF05970-1320-1665 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6GZE6-46-164 
+		 -- Domains: PF16596-54-169 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6LBB0-39-233 
+		 -- Domains: PF03364-100-235 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6F9W7-65-342 
+		 -- Domains: PF01565-134-242 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6G5P4-403-589 
+		 -- Domains: PF11926-583-791 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6N0T6-38-607 
+		 -- Domains: PF03343-188-686 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6QKC3-6-704 
+		 -- Domains: PF00650-238-401, PF03765-157-212 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6FHP2-377-427 
+		 -- Domains: PF03942-281-483 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6G529-56-476 
+		 -- Domains: PF02182-275-436, PF05033-460-557 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MJQ5-181-877 
+		 -- Domains: PF00225-364-681 
+		 -- 16 Homologs -- 0 Structures:  
+	 Q8VZZ8-87-317 
+		 -- Domains: PF03947-295-420 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6NSH0-47-953 
+		 -- Domains: PF00467-486-528, PF03439-190-271, PF11942-97-184 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6N7H5-174-613 
+		 -- Domains: PF02469-213-328, PF13837-290-372 
+		 -- 1 Homologs -- 0 Structures:  
+	 B4FXA9-437-483 
+		 -- Domains: PF00588-361-491 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KE76-706-891 
+		 -- Domains: PF07524-778-854 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HY77-30-412 
+		 -- Domains: PF02182-350-422, PF05033-394-495 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6QPS5-3-377 
+		 -- Domains: PF00076-196-267, PF07145-71-87 
+		 -- 0 Homologs -- 0 Structures:  
+	 B4FYD7-3-442 
+		 -- Domains: PF00638-312-431, PF08911-11-85 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6H2E4-3-377 
+		 -- Domains: PF00076-214-287, PF01805-361-413 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6EEV5-154-756 
+		 -- Domains: PF00806-576-611, PF00806-649-683, PF00806-432-466, PF00806-504-538, PF00806-689-722, PF00806-620-647, PF00806-468-501, PF00806-541-574 
+		 -- 4 Homologs -- 0 Structures:  
+	 K7TN11-100-556 
+		 -- Domains: PF14309-472-639, PF14383-137-166 
+		 -- 5 Homologs -- 0 Structures:  
+	 K7V866-20-722 
+		 -- Domains: PF13041-562-610, PF01535-635-664, PF01535-479-507, PF01535-704-733 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HFU3-16-481 
+		 -- Domains: PF14214-388-486 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6EWL6-6-628 
+		 -- Domains: PF12214-315-487 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6JLE1-97-301 
+		 -- Domains: PF02729-258-413 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6QM79-25-654 
+		 -- Domains: PF05641-66-133, PF05641-218-279 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6QM79-26-795 
+		 -- Domains: PF05641-66-133, PF05641-218-279 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6H079-30-349 
+		 -- Domains: PF01699-54-200, PF01699-250-413 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6M6G4-63-300 
+		 -- Domains: PF03127-162-238 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KCE5-169-784 
+		 -- Domains: PF13812-517-579, PF13812-458-509, PF17177-641-813 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6JL37-231-715 
+		 -- Domains: PF13837-497-585 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MIQ2-181-495 
+		 -- Domains: PF00628-362-413, PF13832-423-535 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6EBT8-119-1184 
+		 -- Domains: PF14214-680-831 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6QMF9-92-1052 
+		 -- Domains: PF00787-598-682, PF02194-121-299, PF08628-869-1011 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6Q257-109-964 
+		 -- Domains: PF14214-470-612 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6PTP1-264-590 
+		 -- Domains: PF06507-275-357 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KCC1-276-1726 
+		 -- Domains: PF02902-1318-1527, PF05970-850-1195, PF14214-385-471, PF14214-320-390 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6H6N4-309-811 
+		 -- Domains: PF14214-698-853 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6KG94-3-883 
+		 -- Domains: PF02309-731-851, PF02362-127-229, PF06507-253-336 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6GVG1-12-882 
+		 -- Domains: PF02362-140-240, PF06507-308-391 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6JK44-17-688 
+		 -- Domains: PF12043-516-647, PF12043-351-481 
+		 -- 3 Homologs -- 0 Structures:  
+	 B4FEJ7-75-352 
+		 -- Domains: PF00096-121-145, PF00096-151-176, PF00096-220-245 
+		 -- 9 Homologs -- 0 Structures:  
+	 A0A1D6E3G8-49-687 
+		 -- Domains: PF00069-411-575, PF00069-590-670 
+		 -- 2 Homologs -- 0 Structures:  
+	 C0HFU9-212-743 
+		 -- Domains: PF13837-470-558 
+		 -- 3 Homologs -- 0 Structures:  
+	 C0HFU9-284-697 
+		 -- Domains: PF13837-470-558 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6GNU3-76-398 
+		 -- Domains: PF00013-320-376, PF00013-169-251 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6QKM8-143-493 
+		 -- Domains: PF04577-337-389 
+		 -- 1 Homologs -- 0 Structures:  
+	 B4FJ72-80-378 
+		 -- Domains: PF00096-120-144, PF00096-150-174, PF00096-243-268, PF00096-91-115 
+		 -- 3 Homologs -- 0 Structures:  
+	 C0P8C5-190-420 
+		 -- Domains: PF05340-271-409 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6NJK2-19-537 
+		 -- Domains: PF13432-188-240, PF14559-250-314 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6MWA2-225-1031 
+		 -- Domains: PF08295-849-942 
+		 -- 5 Homologs -- 0 Structures:  
+	 B4G0W9-66-273 
+		 -- Domains: PF03106-250-306 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6JC75-211-902 
+		 -- Domains: PF04130-870-1087 
+		 -- 37 Homologs -- 0 Structures:  
+	 A0A1D6KE38-95-837 
+		 -- Domains: PF12552-186-226, PF14309-673-830 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6JVI7-4-244 
+		 -- Domains: PF16596-138-267 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6L2M8-93-799 
+		 -- Domains: PF00249-355-400, PF00569-296-337, PF04433-135-220, PF16495-790-872 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6LF93-162-971 
+		 -- Domains: PF14214-182-273, PF14214-269-322 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6JHG9-7-255 
+		 -- Domains: PF01088-157-238, PF01088-109-163 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6MF40-20-523 
+		 -- Domains: PF03127-187-263 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6HUF3-69-331 
+		 -- Domains: PF01209-280-370, PF02681-179-249 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6IKA7-197-676 
+		 -- Domains: PF16294-657-702 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6LHD0-146-333 
+		 -- Domains: PF00166-168-208 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A060D160-37-653 
+		 -- Domains: PF03106-489-546, PF03106-282-338 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6EFW3-101-758 
+		 -- Domains: PF00249-340-386, PF00569-280-322, PF04433-120-205 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6F3S5-4-795 
+		 -- Domains: PF03000-51-178 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6K7I1-138-675 
+		 -- Domains: PF05920-431-470, PF07526-227-352 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6PL72-755-1885 
+		 -- Domains: PF02213-806-848 
+		 -- 10 Homologs -- 0 Structures:  
+	 A0A1D6PL72-442-1105 
+		 -- Domains: PF02213-806-848, PF03126-491-594 
+		 -- 10 Homologs -- 0 Structures:  
+	 A0A1D6PL72-330-1746 
+		 -- Domains: PF02201-351-426, PF02213-806-848, PF03126-491-594 
+		 -- 10 Homologs -- 0 Structures:  
+	 A0A1D6NBT1-259-1540 
+		 -- Domains: PF02201-744-818, PF02213-1237-1281, PF03126-883-987 
+		 -- 10 Homologs -- 0 Structures:  
+	 A0A1D6EPM4-34-484 
+		 -- Domains: PF06200-311-344, PF09425-451-476 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6GSG6-14-1329 
+		 -- Domains: PF13086-713-1069, PF13087-1076-1273 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6GSG6-5-1334 
+		 -- Domains: PF13086-713-1069, PF13087-1076-1273 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6GSG6-35-1322 
+		 -- Domains: PF13086-713-1069, PF13087-1076-1273 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6GSG6-133-1322 
+		 -- Domains: PF13086-713-1069, PF13087-1076-1273 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1X7YDJ4-8-1119 
+		 -- Domains: PF16760-969-1056, PF16760-794-875 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1X7YDJ4-141-1010 
+		 -- Domains: PF16760-969-1056, PF16760-794-875 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6I3P8-451-1194 
+		 -- Domains: PF05970-965-1050, PF05970-1049-1167, PF14214-524-705 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6LWI6-321-2121 
+		 -- Domains: PF00078-594-681 
+		 -- 58 Homologs -- 0 Structures:  
+	 A0A1D6LWI6-327-2267 
+		 -- Domains: PF00078-594-681 
+		 -- 58 Homologs -- 0 Structures:  
+	 A0A1D6QML5-486-1022 
+		 -- Domains: PF05057-922-1036, PF12394-632-698 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6QML5-482-993 
+		 -- Domains: PF05057-922-1036, PF12394-632-698 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6QML5-504-1052 
+		 -- Domains: PF05057-922-1036, PF12394-632-698 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6QML5-562-1122 
+		 -- Domains: PF05057-922-1036, PF12394-632-698 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HGB9-368-1136 
+		 -- Domains: PF00176-571-866, PF00271-1114-1227 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HGB9-376-1063 
+		 -- Domains: PF00176-571-866 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HGB9-279-1820 
+		 -- Domains: PF00176-571-866, PF00271-1114-1227 
+		 -- 0 Homologs -- 0 Structures:  
+	 P16025-427-1340 
+		 -- Domains: PF04998-1325-1419 
+		 -- 186 Homologs -- 0 Structures:  
+	 P16025-1079-1330 
+		 -- Domains: PF04998-1325-1419 
+		 -- 186 Homologs -- 0 Structures:  
+	 P16025-337-1376 
+		 -- Domains: PF04998-1325-1419 
+		 -- 186 Homologs -- 0 Structures:  
+	 P16025-1088-1335 
+		 -- Domains: PF04998-1325-1419 
+		 -- 186 Homologs -- 0 Structures:  
+	 A0A1D6HTA3-13-1371 
+		 -- Domains: PF00628-756-798, PF16135-679-731 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6KEE4-25-788 
+		 -- Domains: PF05904-503-782, PF05904-128-350 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KEE4-3-643 
+		 -- Domains: PF05904-503-782, PF05904-128-350 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KEE4-283-660 
+		 -- Domains: PF05904-503-782 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6MWQ7-197-550 
+		 -- Domains: PF10409-197-335 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6GN10-99-1625 
+		 -- Domains: PF02201-390-465, PF02213-776-818, PF03126-529-633 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6GN10-743-1355 
+		 -- Domains: PF02213-776-818 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6GN10-319-1372 
+		 -- Domains: PF02201-390-465, PF02213-776-818, PF03126-529-633 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6EXV2-333-1606 
+		 -- Domains: PF02854-1224-1447 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6GBR6-20-1304 
+		 -- Domains: PF00046-832-884, PF00046-1081-1130, PF00628-475-523 
+		 -- 11 Homologs -- 0 Structures:  
+	 A0A1D6GBR6-53-1268 
+		 -- Domains: PF00046-832-884, PF00046-1081-1130, PF00628-475-523 
+		 -- 11 Homologs -- 0 Structures:  
+	 A0A1D6GBR6-642-1474 
+		 -- Domains: PF00046-832-884, PF00046-1081-1130 
+		 -- 11 Homologs -- 0 Structures:  
+	 A0A1D6KED8-757-1873 
+		 -- Domains: PF02181-1857-2017 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6KED8-192-521 
+		 -- Domains: PF10409-197-336 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A1D6HAE6-390-1720 
+		 -- Domains: PF00856-1080-1186, PF07496-916-963, PF17907-1029-1066 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6NRL0-86-272 
+		 -- Domains: PF01412-226-308 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6NK70-265-1864 
+		 -- Domains: PF07529-593-640, PF13921-1116-1180 
+		 -- 21 Homologs -- 0 Structures:  
+	 A0A1D6NK70-432-1864 
+		 -- Domains: PF07529-593-640, PF13921-1116-1180 
+		 -- 21 Homologs -- 0 Structures:  
+	 A0A1D6NK70-424-1688 
+		 -- Domains: PF07529-593-640, PF13921-1116-1180 
+		 -- 21 Homologs -- 0 Structures:  
+	 A0A1D6NK70-420-1753 
+		 -- Domains: PF07529-593-640, PF13921-1116-1180 
+		 -- 21 Homologs -- 0 Structures:  
+	 A0A1D6EV07-107-1558 
+		 -- Domains: PF13831-1504-1538, PF16135-268-319 
+		 -- 45 Homologs -- 0 Structures:  
+	 A0A1D6FF36-56-447 
+		 -- 207 Homologs -- Domains: PF04053-1, PF08513-95, PF00400-129, PF07727-1 
+		 -- 207 Homologs -- 0 Structures:  
+	 Q9AY27-112-663 
+		 -- 205 Homologs -- Domains: PF03169-149 
+		 -- 205 Homologs -- 0 Structures:  
+	 Q9AY27-111-616 
+		 -- 205 Homologs -- Domains: PF03169-149 
+		 -- 205 Homologs -- 0 Structures:  
+	 K7UKB6-143-710 
+		 -- 117 Homologs -- Domains: PF03169-94 
+		 -- 117 Homologs -- 0 Structures:  
+	 K7UKB6-145-661 
+		 -- 117 Homologs -- Domains: PF03169-94 
+		 -- 117 Homologs -- 0 Structures:  
+	 A0A1D6FFB2-218-1360 
+		 -- 111 Homologs -- Domains: PF10513-97 
+		 -- 111 Homologs -- 0 Structures:  
+	 A0A1D6FFB2-191-1538 
+		 -- 111 Homologs -- Domains: PF10513-97 
+		 -- 111 Homologs -- 0 Structures:  
+	 A0A1D6QCA7-288-1150 
+		 -- 76 Homologs -- Domains: PF02309-1, PF04484-65 
+		 -- 76 Homologs -- 0 Structures:  
+	 A0A1D6QCA7-406-1223 
+		 -- 76 Homologs -- Domains: PF02309-1, PF04484-65 
+		 -- 76 Homologs -- 0 Structures:  
+	 A0A1D6QCA7-559-1142 
+		 -- 76 Homologs -- Domains: PF02309-1, PF04484-65 
+		 -- 76 Homologs -- 0 Structures:  
+	 A0A1D6N6R4-249-769 
+		 -- 63 Homologs -- Domains: PF02178-7 
+		 -- 63 Homologs -- 0 Structures:  
+	 A0A1D6N6R4-372-656 
+		 -- 63 Homologs -- Domains: PF02178-7 
+		 -- 63 Homologs -- 0 Structures:  
+	 A0A1D6N6R4-164-1236 
+		 -- 63 Homologs -- Domains: PF02178-7 
+		 -- 63 Homologs -- 0 Structures:  
+	 B6SI96-4-171 
+		 -- 60 Homologs -- Domains: PF01088-46 
+		 -- 60 Homologs -- 0 Structures:  
+	 A0A1D6LWI6-1896-2135 
+		 -- 58 Homologs -- Domains: PF09333-45, PF12624-29, PF00078-2, PF13329-39, PF13966-1 
+		 -- 58 Homologs -- 0 Structures:  
+	 A0A1D6LWI6-1744-2145 
+		 -- 58 Homologs -- Domains: PF09333-45, PF12624-29, PF00078-2, PF13329-39, PF13966-1 
+		 -- 58 Homologs -- 0 Structures:  
+	 A0A1D6L4S2-114-702 
+		 -- 47 Homologs -- Domains: PF03169-38 
+		 -- 47 Homologs -- 0 Structures:  
+	 A0A1D6L4S2-111-660 
+		 -- 47 Homologs -- Domains: PF03169-38 
+		 -- 47 Homologs -- 0 Structures:  
+	 B8A3H2-104-165 
+		 -- 31 Homologs -- Domains: PF03942-28 
+		 -- 31 Homologs -- 0 Structures:  
+	 A0A1D6F2C0-409-581 
+		 -- 27 Homologs -- Domains: PF00069-24 
+		 -- 27 Homologs -- 0 Structures:  
+	 A0A060CZB9-89-371 
+		 -- 17 Homologs -- Domains: PF04844-15 
+		 -- 17 Homologs -- 0 Structures:  
+	 B4FJ38-34-262 
+		 -- 16 Homologs -- Domains: PF02330-16 
+		 -- 16 Homologs -- 0 Structures:  
+	 A0A1D6ER77-62-296 
+		 -- 15 Homologs -- Domains: PF00194-14 
+		 -- 15 Homologs -- 0 Structures:  
+	 A0A1D6I6M5-261-1361 
+		 -- 14 Homologs -- Domains: PF03941-9 
+		 -- 14 Homologs -- 0 Structures:  
+	 A0A1D6I6M5-703-1586 
+		 -- 14 Homologs -- Domains: PF03941-9 
+		 -- 14 Homologs -- 0 Structures:  
+	 A0A1D6I6M5-266-1463 
+		 -- 14 Homologs -- Domains: PF03941-9 
+		 -- 14 Homologs -- 0 Structures:  
+	 A0A1D6I6M5-783-1403 
+		 -- 14 Homologs -- Domains: PF03941-9 
+		 -- 14 Homologs -- 0 Structures:  
+	 A0A1D6NFE4-100-341 
+		 -- 13 Homologs -- Domains: PF00004-10, PF17862-10, PF09336-9 
+		 -- 13 Homologs -- 0 Structures:  
+	 A0A1D6LBD1-61-576 
+		 -- 12 Homologs -- Domains: PF14214-12, PF16900-3 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6MAI6-141-548 
+		 -- 7 Homologs -- Domains: PF04006-6 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6HSI6-136-420 
+		 -- 7 Homologs -- Domains: PF03634-5 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6LVN7-8-242 
+		 -- 6 Homologs -- Domains: PF12327-5 
+		 -- 6 Homologs -- 0 Structures:  
+	 B4FZG4-143-355 
+		 -- 6 Homologs -- Domains: PF00194-4 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6Q9I2-460-701 
+		 -- 6 Homologs -- Domains: PF10536-3 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6K8P8-100-451 
+		 -- 6 Homologs -- Domains: PF02902-5 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6KWP0-32-253 
+		 -- 5 Homologs -- Domains: PF08766-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6MWA2-363-653 
+		 -- 5 Homologs -- Domains: PF02671-2, PF08295-3 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6IID1-29-595 
+		 -- 4 Homologs -- Domains: PF13962-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6IID1-21-511 
+		 -- 4 Homologs -- Domains: PF13962-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6F4E5-3-231 
+		 -- 4 Homologs -- Domains: PF04844-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6IGT9-3-600 
+		 -- 4 Homologs -- Domains: PF14111-1 
+		 -- 4 Homologs -- 0 Structures:  
+	 B4F8P1-21-355 
+		 -- 3 Homologs -- Domains: PF16770-2 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6JP11-489-912 
+		 -- 3 Homologs -- Domains: PF01612-3, PF00570-1 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6PTV1-12-353 
+		 -- 3 Homologs -- Domains: PF00046-2 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6FQR2-56-360 
+		 -- 3 Homologs -- Domains: PF00650-1 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6H9B7-139-494 
+		 -- 2 Homologs -- Domains: PF02892-1 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6MV20-7-137 
+		 -- 2 Homologs -- Domains: PF00390-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6MV20-44-130 
+		 -- 2 Homologs -- Domains: PF00390-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6I3K3-8-175 
+		 -- 2 Homologs -- Domains: PF02458-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6GKB8-117-599 
+		 -- 2 Homologs -- Domains: PF00588-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6KDY9-48-282 
+		 -- 2 Homologs -- Domains: PF14291-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6F265-81-486 
+		 -- 2 Homologs -- Domains: PF00141-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6LIJ2-10-354 
+		 -- 2 Homologs -- Domains: PF00780-2, PF02181-2, PF10366-2, PF10367-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6EIR1-123-258 
+		 -- 2 Homologs -- Domains: PF01266-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 K7TQX9-4-361 
+		 -- 2 Homologs -- Domains: PF00847-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6MQI6-19-402 
+		 -- 2 Homologs -- Domains: PF00179-1 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6NYR6-33-417 
+		 -- 2 Homologs -- Domains: PF00622-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 K7UG68-46-164 
+		 -- 1 Homologs -- Domains: PF00141-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6H7I1-55-360 
+		 -- 1 Homologs -- Domains: PF01061-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6KEZ5-14-233 
+		 -- 1 Homologs -- Domains: PF08214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6FLX4-211-403 
+		 -- 1 Homologs -- Domains: PF05970-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6EWJ5-49-375 
+		 -- 1 Homologs -- Domains: PF08646-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6N3L4-102-524 
+		 -- 1 Homologs -- Domains: PF06246-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6FQL7-20-226 
+		 -- 1 Homologs -- Domains: PF05703-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6NFX6-89-403 
+		 -- 1 Homologs -- Domains: PF00569-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6H8Y9-84-138 
+		 -- 1 Homologs -- Domains: PF00106-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6GL50-68-352 
+		 -- 1 Homologs -- Domains: PF12014-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HRZ4-50-322 
+		 -- 1 Homologs -- Domains: PF13968-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6G5F4-3-168 
+		 -- 1 Homologs -- Domains: PF00350-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6NRL0-101-164 
+		 -- 1 Homologs -- Domains: PF01412-1, PF02309-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 P16025-333-1237 
+		 -- 186 Homologs -- Domains: PF05000-132, PF04998-134 
+		 -- 186 Homologs -- 0 Structures:  
+	 A0A1D6EV07-590-1452 
+		 -- 45 Homologs -- Domains: PF00856-38, PF16135-34 
+		 -- 45 Homologs -- 0 Structures:  
+	 A0A1D6EV07-819-1452 
+		 -- 45 Homologs -- Domains: PF00856-38, PF16135-34 
+		 -- 45 Homologs -- 0 Structures:  
+	 A0A1D6FWM9-144-333 
+		 -- 42 Homologs -- Domains: PF04695-15 
+		 -- 42 Homologs -- 0 Structures:  
+	 A0A1D6NQF9-936-1742 
+		 -- 23 Homologs -- Domains: PF10536-11 
+		 -- 23 Homologs -- 0 Structures:  
+	 A0A1D6NQF9-1385-1746 
+		 -- 23 Homologs -- Domains: PF10536-11 
+		 -- 23 Homologs -- 0 Structures:  
+	 A0A1D6NQF9-1144-1688 
+		 -- 23 Homologs -- Domains: PF10536-11 
+		 -- 23 Homologs -- 0 Structures:  
+	 A0A1D6NQF9-910-1687 
+		 -- 23 Homologs -- Domains: PF10536-11 
+		 -- 23 Homologs -- 0 Structures:  
+	 A0A1D6JYQ7-3-802 
+		 -- 22 Homologs -- Domains: PF00566-11 
+		 -- 22 Homologs -- 0 Structures:  
+	 A0A1D6NK70-1342-1817 
+		 -- 21 Homologs -- Domains: PF07529-14 
+		 -- 21 Homologs -- 0 Structures:  
+	 A0A1D6EJX1-268-1158 
+		 -- 20 Homologs -- Domains: PF00076-10 
+		 -- 20 Homologs -- 0 Structures:  
+	 A0A1D6EJX1-397-824 
+		 -- 20 Homologs -- Domains: PF00076-10 
+		 -- 20 Homologs -- 0 Structures:  
+	 A0A1D6EJX1-373-1070 
+		 -- 20 Homologs -- Domains: PF00076-10 
+		 -- 20 Homologs -- 0 Structures:  
+	 A0A1D6P658-520-1633 
+		 -- 19 Homologs -- Domains: PF08711-15 
+		 -- 19 Homologs -- 0 Structures:  
+	 A0A1D6P658-705-1466 
+		 -- 19 Homologs -- Domains: PF08711-15 
+		 -- 19 Homologs -- 0 Structures:  
+	 A0A1D6P658-879-1312 
+		 -- 19 Homologs -- Domains: PF08711-15 
+		 -- 19 Homologs -- 0 Structures:  
+	 Q8S4P6-266-651 
+		 -- 17 Homologs -- Domains: PF18264-16, PF00856-16 
+		 -- 17 Homologs -- 0 Structures:  
+	 K7UT64-185-847 
+		 -- 17 Homologs -- Domains: PF16987-10 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6MWQ7-241-976 
+		 -- 17 Homologs -- Domains: PF02181-3, PF10409-3 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6MWQ7-218-550 
+		 -- 17 Homologs -- Domains: PF02181-3, PF10409-3 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6MWQ7-220-994 
+		 -- 17 Homologs -- Domains: PF02181-3, PF10409-3 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6MWQ7-386-1324 
+		 -- 17 Homologs -- Domains: PF02181-3, PF10409-3 
+		 -- 17 Homologs -- 0 Structures:  
+	 A0A1D6ECI1-93-623 
+		 -- 16 Homologs -- Domains: PF03169-14 
+		 -- 16 Homologs -- 0 Structures:  
+	 A0A1D6ECI1-92-667 
+		 -- 16 Homologs -- Domains: PF03169-14 
+		 -- 16 Homologs -- 0 Structures:  
+	 A0A1D6J791-84-527 
+		 -- 13 Homologs -- Domains: PF03467-4 
+		 -- 13 Homologs -- 0 Structures:  
+	 A0A1D6QR35-411-691 
+		 -- 13 Homologs -- Domains: PF00160-6 
+		 -- 13 Homologs -- 0 Structures:  
+	 A0A1D6E5T6-77-310 
+		 -- 12 Homologs -- Domains: PF03169-9 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6KH75-688-1268 
+		 -- 12 Homologs -- Domains: PF00027-9, PF00999-9 
+		 -- 12 Homologs -- 0 Structures:  
+	 A0A1D6EXV2-580-1004 
+		 -- 12 Homologs -- Domains: PF02847-11, PF02854-12 
+		 -- 12 Homologs -- 0 Structures:  
+	 P26307-243-672 
+		 -- 11 Homologs -- Domains: PF02362-5 
+		 -- 11 Homologs -- 0 Structures:  
+	 E3UJZ2-137-692 
+		 -- 10 Homologs -- Domains: PF03169-8 
+		 -- 10 Homologs -- 0 Structures:  
+	 E3UJZ2-131-641 
+		 -- 10 Homologs -- Domains: PF03169-8 
+		 -- 10 Homologs -- 0 Structures:  
+	 A0A1D6PL72-1265-1551 
+		 -- 10 Homologs -- Domains: PF02213-9, PF03126-7, PF02201-7 
+		 -- 10 Homologs -- 0 Structures:  
+	 A0A1X7YFC7-425-721 
+		 -- 9 Homologs -- Domains: PF00069-9 
+		 -- 9 Homologs -- 0 Structures:  
+	 A0A1D6ECH4-48-190 
+		 -- 8 Homologs -- Domains: PF03169-8 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6ECH4-39-237 
+		 -- 8 Homologs -- Domains: PF03169-8 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6JR28-379-712 
+		 -- 8 Homologs -- Domains: PF00400-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6EA10-84-532 
+		 -- 8 Homologs -- Domains: PF03467-7 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6NDB8-55-289 
+		 -- 8 Homologs -- Domains: PF12169-8 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6KUY8-544-1675 
+		 -- 8 Homologs -- Domains: PF07765-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6KUY8-320-795 
+		 -- 8 Homologs -- Domains: PF07765-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6KUY8-258-1434 
+		 -- 8 Homologs -- Domains: PF07765-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6KUY8-326-1025 
+		 -- 8 Homologs -- Domains: PF07765-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6KUY8-229-1942 
+		 -- 8 Homologs -- Domains: PF07765-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6KUY8-587-1150 
+		 -- 8 Homologs -- Domains: PF07765-3 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6MX19-536-1036 
+		 -- 8 Homologs -- Domains: PF07001-2 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6MX19-191-1336 
+		 -- 8 Homologs -- Domains: PF07001-2 
+		 -- 8 Homologs -- 0 Structures:  
+	 A0A1D6IKJ1-225-317 
+		 -- 7 Homologs -- Domains: PF01142-7 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6KJM2-22-895 
+		 -- 7 Homologs -- Domains: PF03372-4 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A096T152-113-466 
+		 -- 7 Homologs -- Domains: PF00096-4 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6J480-120-418 
+		 -- 7 Homologs -- Domains: PF13639-4, PF12678-1 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6HN40-135-1172 
+		 -- 7 Homologs -- Domains: PF04484-5 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6HN40-730-1144 
+		 -- 7 Homologs -- Domains: PF04484-5 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6HN40-634-1157 
+		 -- 7 Homologs -- Domains: PF04484-5 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6EWT6-8-1028 
+		 -- 7 Homologs -- Domains: PF00439-4 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6EWT6-3-339 
+		 -- 7 Homologs -- Domains: PF00439-4 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6EWT6-85-785 
+		 -- 7 Homologs -- Domains: PF00439-4 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6HAE6-52-584 
+		 -- 7 Homologs -- Domains: PF17907-5, PF00856-5, PF07496-5 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6HAE6-287-701 
+		 -- 7 Homologs -- Domains: PF17907-5, PF00856-5, PF07496-5 
+		 -- 7 Homologs -- 0 Structures:  
+	 A0A1D6LKA6-15-76 
+		 -- 6 Homologs -- Domains: PF03169-6 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6JBB9-132-681 
+		 -- 6 Homologs -- Domains: PF03169-6 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6JBB9-132-641 
+		 -- 6 Homologs -- Domains: PF03169-6 
+		 -- 6 Homologs -- 0 Structures:  
+	 C0P3N6-287-765 
+		 -- 6 Homologs -- Domains: PF00450-6 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6H5E5-3-430 
+		 -- 6 Homologs -- Domains: PF06544-5, PF08572-5 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6J073-409-722 
+		 -- 6 Homologs -- Domains: PF03985-6 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6J073-23-511 
+		 -- 6 Homologs -- Domains: PF03985-6 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6KDE7-160-1319 
+		 -- 6 Homologs -- Domains: PF07001-2 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6KDE7-506-903 
+		 -- 6 Homologs -- Domains: PF07001-2 
+		 -- 6 Homologs -- 0 Structures:  
+	 A0A1D6HEZ2-4-176 
+		 -- 5 Homologs -- Domains: PF01088-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 E3UJZ1-126-679 
+		 -- 5 Homologs -- Domains: PF03169-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 E3UJZ1-128-638 
+		 -- 5 Homologs -- Domains: PF03169-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6IE73-4-535 
+		 -- 5 Homologs -- Domains: PF06273-5 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6IE73-63-474 
+		 -- 5 Homologs -- Domains: PF06273-5 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6MYG4-116-548 
+		 -- 5 Homologs -- Domains: PF00929-3 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6MZR6-268-602 
+		 -- 5 Homologs -- Domains: PF14215-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A096TC93-91-592 
+		 -- 5 Homologs -- Domains: PF00226-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A096TC93-30-339 
+		 -- 5 Homologs -- Domains: PF00226-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A096TC93-34-523 
+		 -- 5 Homologs -- Domains: PF00226-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A096TC93-134-518 
+		 -- 5 Homologs -- Domains: PF00226-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A096TC93-153-374 
+		 -- 5 Homologs -- Domains: PF00226-4 
+		 -- 5 Homologs -- 0 Structures:  
+	 A0A1D6G8Y8-108-664 
+		 -- 4 Homologs -- Domains: PF03169-3 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6G8Y8-105-615 
+		 -- 4 Homologs -- Domains: PF03169-3 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6HJ15-206-312 
+		 -- 4 Homologs -- Domains: PF01746-3 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6KNM6-213-324 
+		 -- 4 Homologs -- Domains: PF07093-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 B4F8Y5-97-469 
+		 -- 4 Homologs -- Domains: PF04576-2 
+		 -- 4 Homologs -- 0 Structures:  
+	 C0P7E6-5-259 
+		 -- 4 Homologs -- Domains: PF06886-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6MVE3-2-772 
+		 -- 4 Homologs -- Domains: PF10358-3 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6GGI2-66-287 
+		 -- 4 Homologs -- Domains: PF00069-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6KNR3-4-614 
+		 -- 4 Homologs -- Domains: PF04576-3 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FUL5-51-760 
+		 -- 4 Homologs -- Domains: PF16770-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FUL5-406-927 
+		 -- 4 Homologs -- Domains: PF16770-4 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FV45-656-1617 
+		 -- 4 Homologs -- Domains: PF00249-2 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FV45-1291-1464 
+		 -- 4 Homologs -- Domains: PF00249-2 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FV45-238-1293 
+		 -- 4 Homologs -- Domains: PF00249-2 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FV45-361-1521 
+		 -- 4 Homologs -- Domains: PF00249-2 
+		 -- 4 Homologs -- 0 Structures:  
+	 A0A1D6FV45-974-1573 
+		 -- 4 Homologs -- Domains: PF00249-2 
+		 -- 4 Homologs -- 0 Structures:  
+	 K7U6E6-111-704 
+		 -- 3 Homologs -- Domains: PF03169-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 K7U6E6-107-663 
+		 -- 3 Homologs -- Domains: PF03169-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6FHB2-104-659 
+		 -- 3 Homologs -- Domains: PF03169-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6FHB2-105-615 
+		 -- 3 Homologs -- Domains: PF03169-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 B4FPD6-60-269 
+		 -- 3 Homologs -- Domains: PF00194-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6KL88-65-274 
+		 -- 3 Homologs -- Domains: PF00194-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 C4J620-241-315 
+		 -- 3 Homologs -- Domains: PF03942-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6E643-26-298 
+		 -- 3 Homologs -- Domains: PF00249-2 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6HCH1-10-237 
+		 -- 3 Homologs -- Domains: PF00069-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6ENF9-739-886 
+		 -- 3 Homologs -- Domains: PF10374-2, PF10373-2 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6K567-148-554 
+		 -- 3 Homologs -- Domains: PF09750-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6GNM9-88-448 
+		 -- 3 Homologs -- Domains: PF02181-2 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6Q6A0-231-444 
+		 -- 3 Homologs -- Domains: PF00271-2, PF00176-2 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6M6X9-6-285 
+		 -- 3 Homologs -- Domains: PF04153-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6IJ10-197-545 
+		 -- 3 Homologs -- Domains: PF14309-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 A0A1D6NZH8-95-599 
+		 -- 2 Homologs -- Domains: PF14214-1, PF05970-1 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6E5T4-35-86 
+		 -- 2 Homologs -- Domains: PF03169-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6L2X1-3-449 
+		 -- 2 Homologs -- Domains: PF01925-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6L2X1-193-432 
+		 -- 2 Homologs -- Domains: PF01925-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6K481-48-290 
+		 -- 2 Homologs -- Domains: PF13520-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6EKM9-522-706 
+		 -- 2 Homologs -- Domains: PF00078-2, PF00641-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6KL89-85-293 
+		 -- 2 Homologs -- Domains: PF00194-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 K7U8D6-7-488 
+		 -- 2 Homologs -- Domains: PF03514-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6J7S4-11-403 
+		 -- 2 Homologs -- Domains: PF00012-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6PC22-94-309 
+		 -- 2 Homologs -- Domains: PF13839-2, PF14416-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6JXN5-202-739 
+		 -- 2 Homologs -- Domains: PF00069-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6JXN5-203-1287 
+		 -- 2 Homologs -- Domains: PF00069-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6N3X0-90-331 
+		 -- 2 Homologs -- Domains: PF03168-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6F5S9-67-394 
+		 -- 2 Homologs -- Domains: PF00010-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6GLT0-29-154 
+		 -- 2 Homologs -- Domains: PF08698-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6E238-8-346 
+		 -- 2 Homologs -- Domains: PF04844-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6GVY0-188-506 
+		 -- 2 Homologs -- Domains: PF10197-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 C0PJF1-229-530 
+		 -- 2 Homologs -- Domains: PF00011-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6H5N1-155-450 
+		 -- 2 Homologs -- Domains: PF00403-1 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6HTA3-22-224 
+		 -- 2 Homologs -- Domains: PF00628-1, PF16135-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6QGM1-236-1047 
+		 -- 2 Homologs -- Domains: PF11331-2 
+		 -- 2 Homologs -- 0 Structures:  
+	 A0A1D6FPM9-5-529 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6FPM9-16-535 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 K7V6R1-145-740 
+		 -- 1 Homologs -- Domains: PF05553-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 K7V6R1-204-545 
+		 -- 1 Homologs -- Domains: PF05553-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6IIA5-5-780 
+		 -- 1 Homologs -- Domains: PF02181-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6IIA5-40-337 
+		 -- 1 Homologs -- Domains: PF02181-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6GFW8-78-394 
+		 -- 1 Homologs -- Domains: PF04576-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 K7VIS7-10-375 
+		 -- 1 Homologs -- Domains: PF02042-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6LVW0-99-386 
+		 -- 1 Homologs -- Domains: PF03283-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6IRD2-394-538 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6IAQ8-29-447 
+		 -- 1 Homologs -- Domains: PF03547-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6E6I0-15-512 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6MRI5-33-165 
+		 -- 1 Homologs -- Domains: PF00141-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6MVL9-6-135 
+		 -- 1 Homologs -- Domains: PF01450-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6IDX8-319-506 
+		 -- 1 Homologs -- Domains: PF01657-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6P753-67-195 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6F0W4-66-113 
+		 -- 1 Homologs -- Domains: PF00588-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6KVL8-12-504 
+		 -- 1 Homologs -- Domains: PF14214-1, PF05970-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6ENN1-630-734 
+		 -- 1 Homologs -- Domains: PF00696-1, PF00742-1, PF03447-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6MY31-81-245 
+		 -- 1 Homologs -- Domains: PF13417-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6LN32-13-378 
+		 -- 1 Homologs -- Domains: PF03141-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HL68-25-1028 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HZE1-590-618 
+		 -- 1 Homologs -- Domains: PF14214-1, PF02902-1, PF05970-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6M2T7-26-753 
+		 -- 1 Homologs -- Domains: PF14214-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6HV16-300-524 
+		 -- 1 Homologs -- Domains: PF09429-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1R3P7Y6-3-258 
+		 -- 1 Homologs -- Domains: PF02902-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 K7V5J8-63-389 
+		 -- 1 Homologs -- Domains: PF07816-1 
+		 -- 1 Homologs -- 0 Structures:  
+	 A0A1D6QER8-49-983 
+		 -- 1 Homologs -- Domains: PF07926-1 
+		 -- 1 Homologs -- 0 Structures:  
+Category 4: Known structure for protein or homologs, domain unknown for protein or known for homologs
+Category 5: No structures for homologs, no domains for homologs
+	 A0A060D0N9-84-277 
+	 A0A060D6Q3-7-408 
+	 A0A096PLN9-101-717 
+	 A0A096PLN9-198-468 
+	 A0A096PLN9-194-538 
+	 A0A096SER1-60-391 
+	 A0A096UDI7-40-306 
+	 A0A1D6DU10-133-561 
+	 A0A1D6DV04-721-1206 
+	 A0A1D6DZ24-7-856 
+	 A0A1D6DZK4-141-1665 
+	 A0A1D6DZK4-138-982 
+	 A0A1D6DZK4-174-658 
+	 A0A1D6E047-139-194 
+	 A0A1D6E1F6-126-334 
+	 A0A1D6E8P3-329-1221 
+	 A0A1D6E8P3-15-1185 
+	 A0A1D6E8P3-548-1092 
+	 A0A1D6EC14-7-188 
+	 A0A1D6EEZ6-86-149 
+	 A0A1D6EH05-58-471 
+	 A0A1D6EHK9-329-716 
+	 A0A1D6EID7-125-394 
+	 A0A1D6EKN6-7-336 
+	 A0A1D6ELR7-103-488 
+	 A0A1D6ELS2-58-572 
+	 A0A1D6ERF3-18-313 
+	 A0A1D6ERW6-3-585 
+	 A0A1D6ES13-77-340 
+	 A0A1D6ES13-12-531 
+	 A0A1D6ESC2-155-864 
+	 A0A1D6ESC2-70-934 
+	 A0A1D6ESC2-634-873 
+	 A0A1D6ESC2-471-1353 
+	 A0A1D6ESC2-509-992 
+	 A0A1D6ESC2-633-1352 
+	 A0A1D6ESC2-714-1346 
+	 A0A1D6ETA1-97-546 
+	 A0A1D6EUS2-20-666 
+	 A0A1D6EVE9-137-419 
+	 A0A1D6EW17-42-492 
+	 A0A1D6EZ70-77-864 
+	 A0A1D6EZ70-668-1040 
+	 A0A1D6F1J0-261-1323 
+	 A0A1D6F1J0-874-1339 
+	 A0A1D6F3Z3-448-1516 
+	 A0A1D6F3Z3-549-1090 
+	 A0A1D6F3Z3-808-1529 
+	 A0A1D6F3Z3-810-1469 
+	 A0A1D6F4S9-3-357 
+	 A0A1D6F6S0-10-154 
+	 A0A1D6F752-3-245 
+	 A0A1D6FAF5-92-448 
+	 A0A1D6FGN3-508-717 
+	 A0A1D6FHT0-11-384 
+	 A0A1D6FK08-137-531 
+	 A0A1D6FL46-579-832 
+	 A0A1D6FRX1-32-1168 
+	 A0A1D6FRX1-146-1637 
+	 A0A1D6FRX1-190-1259 
+	 A0A1D6FTA8-9-230 
+	 A0A1D6FXL1-362-602 
+	 A0A1D6FY32-133-541 
+	 A0A1D6FZI0-2-439 
+	 A0A1D6G4L8-150-228 
+	 A0A1D6G4L8-114-222 
+	 A0A1D6G4Z5-70-341 
+	 A0A1D6G7X6-3-214 
+	 A0A1D6G850-27-728 
+	 A0A1D6G9Y3-25-538 
+	 A0A1D6GD30-4-555 
+	 A0A1D6GHI6-92-679 
+	 A0A1D6GHI6-92-473 
+	 A0A1D6GHI6-35-1375 
+	 A0A1D6GHI6-267-615 
+	 A0A1D6GHI6-218-806 
+	 A0A1D6GIJ5-59-760 
+	 A0A1D6GIW2-771-890 
+	 A0A1D6GIW2-310-901 
+	 A0A1D6GK82-507-941 
+	 A0A1D6GL14-278-628 
+	 A0A1D6GL74-85-246 
+	 A0A1D6GLD8-186-350 
+	 A0A1D6GNK7-25-357 
+	 A0A1D6GNU0-18-459 
+	 A0A1D6GQI1-251-384 
+	 A0A1D6GUZ6-705-886 
+	 A0A1D6GWB0-3-320 
+	 A0A1D6GX81-371-754 
+	 A0A1D6GY69-22-214 
+	 A0A1D6H0U2-4-345 
+	 A0A1D6H2V1-45-193 
+	 A0A1D6H7G4-295-516 
+	 A0A1D6H860-6-949 
+	 A0A1D6H8E2-266-1375 
+	 A0A1D6H8E2-681-1382 
+	 A0A1D6HA73-279-723 
+	 A0A1D6HA97-107-624 
+	 A0A1D6HCC1-832-1438 
+	 A0A1D6HCC1-339-1432 
+	 A0A1D6HCC1-557-1716 
+	 A0A1D6HCS4-4-779 
+	 A0A1D6HE34-131-643 
+	 A0A1D6HE34-10-555 
+	 A0A1D6HE34-131-688 
+	 A0A1D6HET2-137-692 
+	 A0A1D6HET2-132-642 
+	 A0A1D6HET4-113-664 
+	 A0A1D6HET4-106-619 
+	 A0A1D6HIH1-218-549 
+	 A0A1D6HK71-154-531 
+	 A0A1D6HLN9-418-1145 
+	 A0A1D6HN65-55-101 
+	 A0A1D6HR98-14-214 
+	 A0A1D6HW12-9-303 
+	 A0A1D6HW69-7-236 
+	 A0A1D6HY89-178-425 
+	 A0A1D6I339-272-531 
+	 A0A1D6I352-3-412 
+	 A0A1D6I3P5-454-664 
+	 A0A1D6I3X2-139-445 
+	 A0A1D6I459-262-1005 
+	 A0A1D6I485-83-386 
+	 A0A1D6I6Q5-32-343 
+	 A0A1D6I7B1-169-673 
+	 A0A1D6I7B1-233-334 
+	 A0A1D6I7B1-235-575 
+	 A0A1D6I9E6-41-406 
+	 A0A1D6I9E7-134-327 
+	 A0A1D6IKY7-418-593 
+	 A0A1D6IMF4-634-1484 
+	 A0A1D6IN23-22-493 
+	 A0A1D6INK8-122-302 
+	 A0A1D6IP69-7-924 
+	 A0A1D6ITI4-3-359 
+	 A0A1D6ITY6-131-641 
+	 A0A1D6ITY6-194-656 
+	 A0A1D6IUP7-77-316 
+	 A0A1D6IVZ6-67-1092 
+	 A0A1D6IVZ6-241-910 
+	 A0A1D6IW19-15-357 
+	 A0A1D6IW19-15-459 
+	 A0A1D6JAZ1-122-249 
+	 A0A1D6JAZ1-122-245 
+	 A0A1D6JAZ1-121-241 
+	 A0A1D6JB89-69-264 
+	 A0A1D6JBB1-91-272 
+	 A0A1D6JBC7-47-866 
+	 A0A1D6JBC7-613-838 
+	 A0A1D6JBK6-95-434 
+	 A0A1D6JDG7-81-796 
+	 A0A1D6JDG7-198-644 
+	 A0A1D6JEW4-3-638 
+	 A0A1D6JEW4-3-286 
+	 A0A1D6JGM5-767-1234 
+	 A0A1D6JHN7-145-709 
+	 A0A1D6JI63-79-166 
+	 A0A1D6JJD9-1743-1791 
+	 A0A1D6JJK7-23-510 
+	 A0A1D6JP88-3-375 
+	 A0A1D6JRX3-1075-1424 
+	 A0A1D6JV89-977-1147 
+	 A0A1D6JWT7-312-444 
+	 A0A1D6JY14-21-684 
+	 A0A1D6JYK6-3-264 
+	 A0A1D6K137-57-210 
+	 A0A1D6K453-256-833 
+	 A0A1D6K453-349-716 
+	 A0A1D6K453-339-689 
+	 A0A1D6K453-341-842 
+	 A0A1D6K5Y2-97-509 
+	 A0A1D6K6E8-3-403 
+	 A0A1D6K6E8-3-279 
+	 A0A1D6K8B6-168-1568 
+	 A0A1D6K8U9-3-197 
+	 A0A1D6K9A0-52-1514 
+	 A0A1D6K9A0-49-1462 
+	 A0A1D6K9A0-589-1599 
+	 A0A1D6K9A0-785-1590 
+	 A0A1D6K9B7-82-1019 
+	 A0A1D6K9B7-171-608 
+	 A0A1D6K9B7-175-873 
+	 A0A1D6K9B7-271-1282 
+	 A0A1D6KBM0-386-435 
+	 A0A1D6KED8-220-516 
+	 A0A1D6KED8-760-1516 
+	 A0A1D6KED8-738-1602 
+	 A0A1D6KED8-770-1607 
+	 A0A1D6KFQ1-593-1159 
+	 A0A1D6KFQ1-84-1166 
+	 A0A1D6KIQ4-182-234 
+	 A0A1D6KKN3-33-209 
+	 A0A1D6KLU5-150-673 
+	 A0A1D6KMM7-34-471 
+	 A0A1D6KMU0-107-569 
+	 A0A1D6KMU0-103-471 
+	 A0A1D6KN30-92-424 
+	 A0A1D6KQ46-119-683 
+	 A0A1D6KSU6-449-665 
+	 A0A1D6KVU4-74-408 
+	 A0A1D6KVU4-37-303 
+	 A0A1D6KZ93-926-1445 
+	 A0A1D6L2M2-9-244 
+	 A0A1D6L2S4-509-1219 
+	 A0A1D6L2S4-617-1243 
+	 A0A1D6L2S4-759-1170 
+	 A0A1D6L2S4-521-1177 
+	 A0A1D6L5W4-5-279 
+	 A0A1D6L6Z4-113-767 
+	 A0A1D6L6Z4-479-1311 
+	 A0A1D6L6Z4-498-899 
+	 A0A1D6L7J8-2-569 
+	 A0A1D6L7K1-3-273 
+	 A0A1D6L8W1-3-258 
+	 A0A1D6L8W1-147-739 
+	 A0A1D6L9Q0-67-297 
+	 A0A1D6LA89-524-1225 
+	 A0A1D6LA89-550-1224 
+	 A0A1D6LA89-574-1224 
+	 A0A1D6LBR9-257-512 
+	 A0A1D6LEY9-134-228 
+	 A0A1D6LGI2-134-1541 
+	 A0A1D6LGI2-237-1127 
+	 A0A1D6LH19-7-938 
+	 A0A1D6LH19-4-832 
+	 A0A1D6LH19-630-943 
+	 A0A1D6LH19-482-1223 
+	 A0A1D6LHN0-687-841 
+	 A0A1D6LJ90-100-658 
+	 A0A1D6LJ90-101-517 
+	 A0A1D6LQE7-115-522 
+	 A0A1D6LVZ7-391-1419 
+	 A0A1D6LVZ7-401-871 
+	 A0A1D6M2P1-116-280 
+	 A0A1D6M2Y1-8-1011 
+	 A0A1D6M2Y1-607-1129 
+	 A0A1D6M3E5-3-347 
+	 A0A1D6M612-47-568 
+	 A0A1D6M7L3-3-678 
+	 A0A1D6M7L3-3-205 
+	 A0A1D6MDN5-103-155 
+	 A0A1D6ME19-197-581 
+	 A0A1D6MEQ0-14-528 
+	 A0A1D6MHJ0-133-494 
+	 A0A1D6MJX5-321-643 
+	 A0A1D6MLD8-81-591 
+	 A0A1D6MNG2-30-535 
+	 A0A1D6MNQ9-40-414 
+	 A0A1D6MP13-49-371 
+	 A0A1D6MR70-30-168 
+	 A0A1D6MTQ8-1170-1269 
+	 A0A1D6MTW7-462-694 
+	 A0A1D6MTW7-60-1031 
+	 A0A1D6MUF4-63-1128 
+	 A0A1D6MUF4-134-410 
+	 A0A1D6MUI2-7-1164 
+	 A0A1D6MUI2-89-890 
+	 A0A1D6MVN2-4-117 
+	 A0A1D6N0K9-68-418 
+	 A0A1D6N1N0-189-1205 
+	 A0A1D6N1N0-642-1204 
+	 A0A1D6N3G0-4-198 
+	 A0A1D6N3H6-23-632 
+	 A0A1D6N3H6-117-457 
+	 A0A1D6N3N6-200-447 
+	 A0A1D6N3N6-66-466 
+	 A0A1D6N4N1-28-422 
+	 A0A1D6N6Q8-34-487 
+	 A0A1D6N874-35-142 
+	 A0A1D6NA94-176-820 
+	 A0A1D6NA94-333-809 
+	 A0A1D6ND19-2-291 
+	 A0A1D6NHV0-195-1077 
+	 A0A1D6NHV0-857-1082 
+	 A0A1D6NHV0-423-1137 
+	 A0A1D6NI30-163-980 
+	 A0A1D6NI30-352-836 
+	 A0A1D6NI30-327-858 
+	 A0A1D6NI30-457-999 
+	 A0A1D6NJN0-61-551 
+	 A0A1D6NJU3-35-707 
+	 A0A1D6NL96-173-545 
+	 A0A1D6NL96-186-480 
+	 A0A1D6NL96-151-595 
+	 A0A1D6NLA8-328-609 
+	 A0A1D6NQR6-479-663 
+	 A0A1D6NQR6-125-680 
+	 A0A1D6NSE1-300-360 
+	 A0A1D6NW32-34-287 
+	 A0A1D6NWI3-158-751 
+	 A0A1D6NWI3-145-700 
+	 A0A1D6NXS7-30-110 
+	 A0A1D6NY29-166-314 
+	 A0A1D6NYG4-56-442 
+	 A0A1D6NYN2-72-221 
+	 A0A1D6P3A9-24-1076 
+	 A0A1D6P5F2-25-382 
+	 A0A1D6P665-642-1639 
+	 A0A1D6P665-934-1376 
+	 A0A1D6P6H9-497-1503 
+	 A0A1D6P6H9-158-574 
+	 A0A1D6P6H9-736-1460 
+	 A0A1D6P7G8-50-295 
+	 A0A1D6PAE1-183-852 
+	 A0A1D6PAE1-590-841 
+	 A0A1D6PBY5-194-963 
+	 A0A1D6PDQ1-9-559 
+	 A0A1D6PHI3-109-433 
+	 A0A1D6PMS2-156-523 
+	 A0A1D6PSI4-412-727 
+	 A0A1D6PSI4-53-668 
+	 A0A1D6PSI4-230-727 
+	 A0A1D6Q1D0-61-296 
+	 A0A1D6Q1N2-6-411 
+	 A0A1D6Q250-4-407 
+	 A0A1D6Q297-235-540 
+	 A0A1D6Q313-25-545 
+	 A0A1D6Q5J0-128-718 
+	 A0A1D6Q5J0-131-677 
+	 A0A1D6Q5R6-116-362 
+	 A0A1D6Q7K9-122-725 
+	 A0A1D6Q7K9-120-691 
+	 A0A1D6Q894-384-1055 
+	 A0A1D6Q9L0-139-497 
+	 A0A1D6QBP0-5-384 
+	 A0A1D6QE75-6-458 
+	 A0A1D6QEN1-100-301 
+	 A0A1D6QHF8-1767-1814 
+	 A0A1D6QQ11-294-1033 
+	 A0A1D6QQ11-154-830 
+	 A0A1D6QRM7-480-741 
+	 A0A1D6QTC9-116-626 
+	 A0A1D6QUQ7-100-670 
+	 A0A1D6QUQ7-92-619 
+	 A0A1X7YDJ4-513-742 
+	 A0A1X7YDJ4-140-759 
+	 A0A1X7YHI7-166-403 
+	 B4FA36-5-441 
+	 B4FBB6-386-1997 
+	 B4FDG8-14-247 
+	 B4FFF2-32-364 
+	 B4FFL5-276-331 
+	 B4FIH0-22-349 
+	 B4FRH4-19-228 
+	 B4FTL0-6-399 
+	 B4FWD2-742-1566 
+	 B4FWD2-257-812 
+	 B4FYT4-37-269 
+	 B4FZW2-4-172 
+	 B4G107-81-238 
+	 B4G1C5-17-228 
+	 B6SJT5-37-503 
+	 B6SJT5-39-366 
+	 B6SJT5-18-338 
+	 B6SJT5-110-337 
+	 B6SJT5-112-300 
+	 B6SJT5-110-364 
+	 B6SJT5-172-361 
+	 B6SKL2-94-354 
+	 B6T4K0-15-70 
+	 B6T8Z1-210-260 
+	 B7ZY74-3-388 
+	 B7ZY74-9-296 
+	 B7ZYN1-14-363 
+	 B8A0X5-95-393 
+	 B8A1J6-16-288 
+	 C0HF23-7-236 
+	 C0HF62-3-379 
+	 C0HG45-22-415 
+	 C0HGV4-6-275 
+	 C0P3K7-65-492 
+	 C0P5Z8-43-235 
+	 C0P833-586-686 
+	 C0P8B5-32-634 
+	 C0P8B5-196-490 
+	 C0P8B5-187-655 
+	 C0PBU4-4-168 
+	 C0PD82-42-600 
+	 C0PEM5-35-443 
+	 C0PFF8-612-748 
+	 C0PNP7-76-315 
+	 C4JB03-224-271 
+	 C4JBR0-38-522 
+	 C4JBR0-58-360 
+	 F1DK02-327-578 
+	 K7TX53-4-356 
+	 K7TXJ3-103-667 
+	 K7TXJ3-96-619 
+	 K7TZM0-374-648 
+	 K7U0Q8-111-701 
+	 K7U0Q8-107-655 
+	 K7U2S6-186-598 
+	 K7U3K9-182-364 
+	 K7U3K9-43-371 
+	 K7U3K9-138-373 
+	 K7U728-14-286 
+	 K7U9R9-58-136 
+	 K7UB62-2-320 
+	 K7UGL9-17-175 
+	 K7ULI1-25-565 
+	 K7UN74-65-297 
+	 K7UZW2-176-1036 
+	 K7UZW2-287-993 
+	 K7V2E8-59-268 
+	 K7V3F3-112-562 
+	 K7VNR4-3-393 
+	 K7W1A6-162-831 
+	 P03936-22-82 
+	 P0DKL2-316-779 
+	 P0DKL2-298-602 
+	 P0DKL2-655-783 
+	 P0DKL2-315-714 
+	 P0DKL2-373-596 
+	 P0DKL2-374-777 
+	 P0DKL2-456-783 
+	 Q32SG5-90-614 
+	 Q32SG5-288-520 
+	 Q9SBX4-238-416 

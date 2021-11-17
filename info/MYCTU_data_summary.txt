@@ -1,0 +1,110 @@
+Category 1: Known structure for protein, known domains
+	 P9WGV1-5-288 
+		 -- Domains: PF00438-5-106, PF02772-129-251, PF02773-253-392 
+		 -- 1 Structures: 3TDE 
+Category 2: Known structure for homologs, known domains
+Category 3: No structures for homologs, known domains for proteins of homologs
+	 P94978-182-230 
+		 -- Domains: PF00588-108-251 
+		 -- 0 Homologs -- 0 Structures:  
+	 P95149-3-654 
+		 -- Domains: PF02515-399-771, PF02515-6-377 
+		 -- 612 Homologs -- 0 Structures:  
+	 P9WHR5-6-450 
+		 -- Domains: PF00561-105-406, PF08386-414-518 
+		 -- 0 Homologs -- 0 Structures:  
+	 O53910-32-299 
+		 -- Domains: PF01699-215-359 
+		 -- 0 Homologs -- 0 Structures:  
+	 A0A089QRB9-956-1993 
+		 -- Domains: PF00107-1550-1680, PF08240-1426-1555, PF08659-1745-1923 
+		 -- 770 Homologs -- 0 Structures:  
+	 P9WFY5-236-282 
+		 -- Domains: PF00588-160-301 
+		 -- 0 Homologs -- 0 Structures:  
+	 P9WKA9-177-387 
+		 -- Domains: PF06974-270-405 
+		 -- 345 Homologs -- 0 Structures:  
+	 Q6MWY2-971-2123 
+		 -- Domains: PF01469-1561-1600, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-961-2165 
+		 -- Domains: PF01469-1561-1600, PF01469-2137-2176, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-959-2361 
+		 -- Domains: PF01469-1561-1600, PF01469-2137-2176, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-915-2192 
+		 -- Domains: PF01469-1561-1600, PF01469-2137-2176, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-596-2122 
+		 -- Domains: PF01469-1561-1600, PF01469-801-840, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-791-830, PF01469-749-788, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-1464-2290 
+		 -- Domains: PF01469-1561-1600, PF01469-2137-2176, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-1244-2096 
+		 -- Domains: PF01469-1561-1600, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWY2-1207-2293 
+		 -- Domains: PF01469-1561-1600, PF01469-2137-2176, PF01469-1439-1478, PF01469-2015-2054, PF01469-1521-1560, PF01469-2097-2136, PF01469-1481-1520, PF01469-2057-2096 
+		 -- 390 Homologs -- 0 Structures:  
+	 Q6MWW6-371-1318 
+		 -- 490 Homologs -- Domains: PF00934-4 
+		 -- 490 Homologs -- 0 Structures:  
+	 Q6MWW6-1051-1312 
+		 -- 490 Homologs -- Domains: PF00934-4 
+		 -- 490 Homologs -- 0 Structures:  
+	 Q6MWW6-889-1312 
+		 -- 490 Homologs -- Domains: PF00934-4 
+		 -- 490 Homologs -- 0 Structures:  
+	 Q6MWY2-2209-2253 
+		 -- 390 Homologs -- Domains: PF01469-7, PF00823-5 
+		 -- 390 Homologs -- 0 Structures:  
+	 O53553-948-1484 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-378-1116 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-863-1081 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-859-1347 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-902-1350 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-968-1350 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-951-1347 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-972-1502 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+	 O53553-1091-1606 
+		 -- 39 Homologs -- Domains: PF00934-3 
+		 -- 39 Homologs -- 0 Structures:  
+Category 4: Known structure for protein or homologs, domain unknown for protein or known for homologs
+	 P9WFY7-78-133 
+		 -- 0 Homologs -- Domains:  
+		 -- 4 Structures: 5ZHJ, 5ZHK, 5ZHL, 6JOF 
+	 P9WGX1-15-71 
+		 -- 0 Homologs -- Domains:  
+		 -- 1 Structures: 4L69 
+Category 5: No structures for homologs, no domains for homologs
+	 O06241-35-154 
+	 O06603-64-321 
+	 O50394-75-123 
+	 O53715-101-149 
+	 O69696-101-369 
+	 P71749-60-610 
+	 P71749-60-562 
+	 P9WFY3-204-254 
+	 P9WIK5-15-175 
+	 P9WIK7-878-1742 
+	 P9WIK7-1060-1541 
+	 P9WIK9-464-732 

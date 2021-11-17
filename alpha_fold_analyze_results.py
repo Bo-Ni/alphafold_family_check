@@ -1,6 +1,7 @@
 from urllib import request
 from tqdm import tqdm
 from matplotlib import pyplot as plt
+import os
 
 
 def DecodeSavefile(input_file):
@@ -98,12 +99,28 @@ def SplitResultToCategories(data, output="output_info.txt"):
             category1.append(data[i])
         elif data[i][1] == "prot" and data[i][4] != "nodata" and data[i][6][0] != '':
             category2.append(data[i])
-        elif data[i][3][0] != '' and data[i][6][0] == '':
+        elif data[i][3][0][0] != '' and data[i][6][0] == '':
             category3.append(data[i])
         elif data[i][1] != "prot" and data[i][6][0] != '':
             category4.append(data[i])
         else:
             category5.append(data[i])
+
+    category1.sort(key=lambda i: int(i[5]), reverse=True)
+    category2.sort(key=lambda i: len(i[6]), reverse=True)
+
+    category3.sort(key=lambda i: int(i[2]), reverse=True)
+    category3.sort(key=lambda i: i[1] if i[1] != "prot" else "")
+
+    category4.sort(key=lambda i: len(i[6]), reverse=True)
+    category4.sort(key=lambda i: i[4] if i[4] != "prot" else "")
+
+    category5.sort(key=lambda i: i[0][0])
+
+
+    for i in category5:
+        print(i)
+    print("-------")
             
     newfile = open(output, "w")
 
@@ -142,6 +159,8 @@ def decision_func(data):
     return data
 
 
+if __name__ == "__main__":
+    for i in os.listdir("temp_files"):
+        parsed_data = DecodeSavefile(f"temp_files/{i}")
+        SplitResultToCategories(parsed_data, output=f"info/{i.split('_')[0]}_data_summary.txt")
 
-parsed_data = DecodeSavefile("temp_files/savefile_human.txt")
-SplitResultToCategories(parsed_data, output="info/human_data_summary.txt")

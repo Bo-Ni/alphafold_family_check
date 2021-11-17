@@ -1,0 +1,76 @@
+Category 1: Known structure for protein, known domains
+	 Q57556-19-249 
+		 -- Domains: PF01699-163-299 
+		 -- 17 Structures: 3V5S, 3V5U, 5HWX, 5HWY, 5HXC, 5HXE, 5HXH, 5HXR, 5HXS, 5HYA, 5JDF, 5JDG, 5JDH, 5JDL, 5JDM, 5JDN, 5JDQ 
+Category 2: Known structure for homologs, known domains
+Category 3: No structures for homologs, known domains for proteins of homologs
+	 Q58445-110-163 
+		 -- Domains: PF04997-7-316 
+		 -- 8 Homologs -- 0 Structures:  
+	 Q58118-44-94 
+		 -- Domains: PF04034-45-170 
+		 -- 45 Homologs -- 0 Structures:  
+	 Q57864-264-317 
+		 -- Domains: PF14419-168-341 
+		 -- 88 Homologs -- 0 Structures:  
+	 Q58524-132-513 
+		 -- Domains: PF14890-344-838 
+		 -- 5 Homologs -- 0 Structures:  
+	 Q58295-404-1425 
+		 -- Domains: PF00136-1354-1613, PF00136-778-885, PF14528-647-729, PF14890-891-1358, PF18714-1006-1154 
+		 -- 4 Homologs -- 0 Structures:  
+	 Q58295-392-1435 
+		 -- Domains: PF00136-1354-1613, PF00136-778-885, PF14528-647-729, PF14890-891-1358, PF18714-1006-1154 
+		 -- 4 Homologs -- 0 Structures:  
+	 Q58295-413-1461 
+		 -- Domains: PF00136-1354-1613, PF00136-778-885, PF14528-647-729, PF14890-891-1358, PF18714-1006-1154 
+		 -- 4 Homologs -- 0 Structures:  
+	 Q58295-400-957 
+		 -- Domains: PF00136-778-885, PF14528-647-729, PF14890-891-1358 
+		 -- 4 Homologs -- 0 Structures:  
+	 Q58295-417-1509 
+		 -- Domains: PF00136-1354-1613, PF00136-778-885, PF14528-647-729, PF14890-891-1358, PF18714-1006-1154 
+		 -- 4 Homologs -- 0 Structures:  
+	 Q58295-478-1520 
+		 -- Domains: PF00136-1354-1613, PF00136-778-885, PF14528-647-729, PF14890-891-1358, PF18714-1006-1154 
+		 -- 4 Homologs -- 0 Structures:  
+	 Q57677-88-143 
+		 -- 122 Homologs -- Domains: PF04407-91 
+		 -- 122 Homologs -- 0 Structures:  
+	 Q58479-5-395 
+		 -- 45 Homologs -- Domains: PF01970-26 
+		 -- 45 Homologs -- 0 Structures:  
+	 Q58871-76-136 
+		 -- 41 Homologs -- Domains: PF00588-31 
+		 -- 41 Homologs -- 0 Structures:  
+	 Q58780-77-127 
+		 -- 24 Homologs -- Domains: PF01994-22 
+		 -- 24 Homologs -- 0 Structures:  
+	 Q58599-78-124 
+		 -- 11 Homologs -- Domains: PF09895-9 
+		 -- 11 Homologs -- 0 Structures:  
+	 Q57775-338-373 
+		 -- 3 Homologs -- Domains: PF04233-3 
+		 -- 3 Homologs -- 0 Structures:  
+	 Q57775-341-372 
+		 -- 3 Homologs -- Domains: PF04233-3 
+		 -- 3 Homologs -- 0 Structures:  
+Category 4: Known structure for protein or homologs, domain unknown for protein or known for homologs
+	 Q57977-137-186 
+		 -- 9 Homologs -- Domains: PF03587-9 
+		 -- 3 Structures: 3BBD, 3BBE, 3BBH 
+	 Q59034-132-179 
+		 -- 48 Homologs -- Domains: PF04013-38 
+		 -- 2 Structures: 3AI9, 3AIA 
+	 Q58191-574-640 
+		 -- 12 Homologs -- Domains: PF00437-8 
+		 -- 2 Structures: 2JMZ, 2JNQ 
+	 Q57812-20-1051 
+		 -- 7 Homologs -- Domains: PF10802-6 
+		 -- 1 Structures: 2EFV 
+	 Q58605-21-326 
+		 -- 280 Homologs -- Domains: PF01941-236 
+		 -- 280 Homologs -- 3 Structures: 6S81, 6S83, 4L4Q 
+Category 5: No structures for homologs, no domains for homologs
+	 Q57553-5-177 
+	 Q58366-155-241 

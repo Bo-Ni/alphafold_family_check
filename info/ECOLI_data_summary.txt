@@ -1,0 +1,66 @@
+Category 1: Known structure for protein, known domains
+	 P0A817-5-277 
+		 -- Domains: PF02772-114-231, PF02773-233-370 
+		 -- 9 Structures: 1FUG, 1MXA, 1MXB, 1MXC, 1P7L, 1RG9, 1XRA, 1XRB, 1XRC 
+	 P05793-203-433 
+		 -- Domains: PF01450-210-345, PF01450-350-483 
+		 -- 2 Structures: 1YRL, 3ULK 
+	 P05793-247-373 
+		 -- Domains: PF01450-350-483 
+		 -- 2 Structures: 1YRL, 3ULK 
+	 Q46803-189-273 
+		 -- Domains: PF00185-187-374 
+		 -- 1 Structures: 3Q98 
+	 P63177-169-216 
+		 -- Domains: PF00588-95-236 
+		 -- 1 Structures: 1GZ0 
+Category 2: Known structure for homologs, known domains
+Category 3: No structures for homologs, known domains for proteins of homologs
+	 P0AGJ2-91-138 
+		 -- Domains: PF00588-19-159 
+		 -- 0 Homologs -- 0 Structures:  
+	 P76481-119-450 
+		 -- Domains: PF00092-216-389, PF12034-392-570 
+		 -- 1253 Homologs -- 0 Structures:  
+	 P31801-6-411 
+		 -- Domains: PF01699-38-191, PF01699-222-366 
+		 -- 2620 Homologs -- 0 Structures:  
+	 P0AGJ5-270-317 
+		 -- Domains: PF00588-197-337 
+		 -- 0 Homologs -- 0 Structures:  
+	 P37005-74-134 
+		 -- 3206 Homologs -- Domains: PF00588-1539 
+		 -- 3206 Homologs -- 0 Structures:  
+	 P39279-32-145 
+		 -- 1773 Homologs -- Domains: PF15922-954 
+		 -- 1773 Homologs -- 0 Structures:  
+	 Q47319-62-296 
+		 -- 995 Homologs -- Domains: PF03942-458 
+		 -- 995 Homologs -- 0 Structures:  
+	 P45394-821-940 
+		 -- 776 Homologs -- Domains: PF01699-369 
+		 -- 776 Homologs -- 0 Structures:  
+	 P45394-794-960 
+		 -- 776 Homologs -- Domains: PF01699-369 
+		 -- 776 Homologs -- 0 Structures:  
+Category 4: Known structure for protein or homologs, domain unknown for protein or known for homologs
+	 P0A8I8-67-122 
+		 -- 0 Homologs -- Domains:  
+		 -- 4 Structures: 1NS5, 5TWJ, 5TWK, 5ZYO 
+	 P0AE01-76-134 
+		 -- 0 Homologs -- Domains:  
+		 -- 3 Structures: 4CND, 4CNE, 4XBO 
+	 P0AGJ7-76-124 
+		 -- 0 Homologs -- Domains:  
+		 -- 2 Structures: 4JAK, 4JAL 
+	 P0A873-83-133 
+		 -- 0 Homologs -- Domains:  
+		 -- 1 Structures: 1P9P 
+	 P0AGL7-166-216 
+		 -- 0 Homologs -- Domains:  
+		 -- 1 Structures: 4E8B 
+	 P15032-95-399 
+		 -- 1230 Homologs -- Domains: PF12684-256, PF06630-264 
+		 -- 1 Structures: 3H4R 
+Category 5: No structures for homologs, no domains for homologs
+	 P11865-20-171 
