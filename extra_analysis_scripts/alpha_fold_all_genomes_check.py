@@ -3,7 +3,7 @@ from tqdm import tqdm
 
 ## ----- ALL DATA ------
 
-data_h = open("input_files/AF_non-human - All.tsv")
+data_h = open("../input_files/AF_non-human - All.tsv")
 data = data_h.readlines()
 data_h.close()
 UNI_IDso = [i.split("\t") for i in data[1:]]
