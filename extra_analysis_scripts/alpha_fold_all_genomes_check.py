@@ -36,5 +36,5 @@ dict_names.sort(key=lambda i: len(genomes[i]))
 
 for i in tqdm(dict_names):
     print(i)
-    result = AlphaFoldWorkflow(genomes[i], savefile=f"temp_files/{i}_alpha_fold.txt")
+    result = AlphaFoldWorkflow(genomes[i], savefile=f"../temp_files/{i}_alpha_fold.txt")
 
