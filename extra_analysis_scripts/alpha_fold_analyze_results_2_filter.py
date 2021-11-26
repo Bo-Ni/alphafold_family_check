@@ -53,27 +53,30 @@ for organism in organism_files:
     if "RAT" in organism:
         organism = "RAT  "
     for single_data in organism_data:
-        knot_info = [i0[1] for i0 in knot_list if i0[0] == single_data[0][0]]
-        knot_info = ", ".join([i for i in knot_info if i])
-        if single_data[1] == "prot":  # ----- Protein data
-            family_id = "--".join([i0[0] for i0 in single_data[3]])
-            if family_id in result_dict:
-                result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
-            else:
-                result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
-        elif "hom" in single_data[1]:  # ----- Homolog data
-            pass
-        elif single_data[1] == "nodata":  # ----- Other
-            if "No data" in result_dict:
-                result_dict["No data"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
-            else:
-                result_dict["No data"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+        extra_info = [i0 for i0 in knot_list if i0[0] == single_data[0][0]]
+        if extra_info[0][2] and extra_info[0][3]:
+            if extra_info[0][2] >= plddt_threshold and extra_info[0][3] >= knot_threshold:
+                knot_info = [i0[1] for i0 in knot_list if i0[0] == single_data[0][0]]
+                knot_info = ", ".join([i for i in knot_info if i])
+                if single_data[1] == "prot":  # ----- Protein data
+                    family_id = "--".join([i0[0] for i0 in single_data[3]])
+                    if family_id in result_dict:
+                        result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                    else:
+                        result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+                elif "hom" in single_data[1]:  # ----- Homolog data
+                    pass
+                elif single_data[1] == "nodata":  # ----- Other
+                    if "No data" in result_dict:
+                        result_dict["No data"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                    else:
+                        result_dict["No data"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
 
 family_names = list(result_dict.keys())
 family_names.sort(key=lambda i: len(result_dict[i]), reverse=True)
 
 
-newfile = open("../info/summary2.txt", "w")
+newfile = open("../info/summary2_filtered.txt", "w")
 for i in family_names:
     temp_org_check = []
     temp_top_check = []
