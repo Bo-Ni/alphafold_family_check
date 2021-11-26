@@ -161,6 +161,6 @@ def decision_func(data):
 
 if __name__ == "__main__":
     for i in os.listdir("../temp_files"):
-        parsed_data = DecodeSavefile(f"temp_files/{i}")
-        SplitResultToCategories(parsed_data, output=f"info/{i.split('_')[0]}_data_summary.txt")
+        parsed_data = DecodeSavefile(f"../temp_files/{i}")
+        SplitResultToCategories(parsed_data, output=f"../info/organism_summaries/{i.split('_')[0]}_data_summary.txt")
 

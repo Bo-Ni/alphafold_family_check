@@ -35,6 +35,8 @@ knot_list = get_human_knot_info()
 knot_list.extend(get_non_human_knot_info())
 knot_list = [[i[0], i[1].replace("_", "")] for i in knot_list]
 
+threshold = 0.3
+
 result_dict = {}
 organism_files = os.listdir("../temp_files")
 organism_files = [i for i in organism_files if "alpha" in i]
@@ -46,13 +48,36 @@ for organism in organism_files:
         knot_info = [i0[1] for i0 in knot_list if i0[0] == single_data[0][0]]
         knot_info = ", ".join([i for i in knot_info if i])
         if single_data[1] == "prot":  # ----- Protein data
-            family_id = "--".join([i0[0] for i0 in single_data[3]])
-            if family_id in result_dict:
-                result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
-            else:
-                result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+            for family_id in single_data[3]:
+                family_id = family_id[0]
+                if family_id in result_dict:
+                    result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                else:
+                    result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
         elif "hom" in single_data[1]:  # ----- Homolog data
-            pass
+            potential = single_data[3]
+            if potential[0][0] == "":  # -- nothing found
+                if "No data homolog" in result_dict:
+                    result_dict["No data homolog"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                else:
+                    result_dict["No data homolog"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+            else:
+                state = False
+                potential.sort(key=lambda i: i[1])
+                if int(potential[0][1]) / int(single_data[2]) > threshold:  # -- homolog found
+                    state = True
+                    family_id = potential[0][0]
+                    if family_id in result_dict:
+                        result_dict[family_id].append([organism.split('_')[0] + "_hom", '_'.join(single_data[0]), knot_info])
+                    else:
+                        result_dict[family_id] = [[organism.split('_')[0] + "_hom", '_'.join(single_data[0]), knot_info]]
+                if not state:  # -- homolog found but indecisive
+                    if "Homolog indecisive" in result_dict:
+                        result_dict["Homolog indecisive"].append(
+                            [organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                    else:
+                        result_dict["Homolog indecisive"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+
         elif single_data[1] == "nodata":  # ----- Other
             if "No data" in result_dict:
                 result_dict["No data"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
@@ -62,8 +87,10 @@ for organism in organism_files:
 family_names = list(result_dict.keys())
 family_names.sort(key=lambda i: len(result_dict[i]), reverse=True)
 
+for i in result_dict:
+    result_dict[i].sort(key=lambda i: i[0])
 
-newfile = open("../info/summary2.txt", "w")
+newfile = open("../info/summary2_separate.txt", "w")
 for i in family_names:
     temp_org_check = []
     temp_top_check = []
