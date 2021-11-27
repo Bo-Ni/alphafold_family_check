@@ -71,27 +71,24 @@ def AnalyzeDataFamily(filter=False, separate=False):
                     if not separate:  # --------------------------------------------------------------------------JOINED
                         family_id = "--".join([i0[0] for i0 in single_data[3]])
                         if family_id in result_dict:
-                            result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                            result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]])
                         else:
-                            result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+                            result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]]]
                     else:  # -----------------------------------------------------------------------------------SEPARATE
                         for family_id in single_data[3]:
                             family_id = family_id[0]
                             if family_id in result_dict:
-                                result_dict[family_id].append(
-                                    [organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                                result_dict[family_id].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]])
                             else:
-                                result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+                                result_dict[family_id] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]]]
                 elif "hom" in single_data[1]:  # ----------------------------------------------------------------------- Homolog data
                     if separate:  # ----------------------------------------------------------------------------SEPARATE
                         potential = single_data[3]
                         if potential[0][0] == "":  # -- nothing found
                             if "No data homolog" in result_dict:
-                                result_dict["No data homolog"].append(
-                                    [organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                                result_dict["No data homolog"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]])
                             else:
-                                result_dict["No data homolog"] = [
-                                    [organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+                                result_dict["No data homolog"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]]]
                         else:
                             state = False
                             potential.sort(key=lambda i: i[1])
@@ -100,30 +97,28 @@ def AnalyzeDataFamily(filter=False, separate=False):
                                 family_id = potential[0][0]
                                 if family_id in result_dict:
                                     result_dict[family_id].append(
-                                        [organism.split('_')[0] + "_hom", '_'.join(single_data[0]), knot_info])
+                                        [organism.split('_')[0] + "_hom", '_'.join(single_data[0]), knot_info, extra_info[0][4]])
                                 else:
                                     result_dict[family_id] = [
-                                        [organism.split('_')[0] + "_hom", '_'.join(single_data[0]), knot_info]]
+                                        [organism.split('_')[0] + "_hom", '_'.join(single_data[0]), knot_info, extra_info[0][4]]]
                             if not state:  # -- homolog found but indecisive
                                 if "Homolog indecisive" in result_dict:
-                                    result_dict["Homolog indecisive"].append(
-                                        [organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                                    result_dict["Homolog indecisive"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]])
                                 else:
-                                    result_dict["Homolog indecisive"] = [
-                                        [organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+                                    result_dict["Homolog indecisive"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]]]
                 elif single_data[1] == "nodata":  # -------------------------------------------------------------------- Other
                     if "No data" in result_dict:  # ----------------------------------------------------------------BOTH
-                        result_dict["No data"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info])
+                        result_dict["No data"].append([organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]])
                     else:
-                        result_dict["No data"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info]]
+                        result_dict["No data"] = [[organism.split('_')[0], '_'.join(single_data[0]), knot_info, extra_info[0][4]]]
 
     return result_dict
 
 
-result_dict = AnalyzeDataFamily(False, True)
+result_dict = AnalyzeDataFamily(True, False)
 family_names = list(result_dict.keys())
 family_names.sort(key=lambda i: len(result_dict[i]), reverse=True)
-newfile = open("../info/summary2_separate.txt", "w")
+newfile = open("../info/summary2_filtered.txt", "w")
 for i in family_names:
     temp_org_check = []
     temp_top_check = []

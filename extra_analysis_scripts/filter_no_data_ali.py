@@ -1,4 +1,4 @@
-file_h = open("../temp_files/nodata_analysis/nodata_alignment.fasta")
+file_h = open("../temp_files/nodata_analysis/nodata_alignment_old.fasta")
 file = file_h.read()
 file_h.close()
 
