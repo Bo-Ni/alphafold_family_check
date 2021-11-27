@@ -1,4 +1,4 @@
-file_h = open("../temp_files/nodata_alignment.fasta")
+file_h = open("../temp_files/nodata_analysis/nodata_alignment.fasta")
 file = file_h.read()
 file_h.close()
 
@@ -21,7 +21,7 @@ for i in hits:
                 data.append(i1)
 
 
-newfile = open("../temp_files/nodata_alignment_filtered.fasta", "w")
+newfile = open("../temp_files/nodata_analysis/nodata_alignment_filtered.fasta", "w")
 for i1 in data:
     newfile.write(i1)
 newfile.close()
