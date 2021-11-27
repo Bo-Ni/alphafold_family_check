@@ -11,3 +11,5 @@ for i in uni_ids:
         unique_ids.append(i)
 
 DownloadAlphaFoldSequences(unique_ids, "../temp_files/full_alignment.fasta")
+
+print(unique_ids)
